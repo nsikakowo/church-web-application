@@ -1,0 +1,54 @@
+.single-messagePlayer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 10rem;
+    padding: 3rem 5rem;
+    background-color: var(--clr-primary-4);
+}
+
+.single-messagePlayer .content{
+    width: 90%;
+}
+
+.single-messagePlayer .video{
+    width: 620px;
+    border-radius: 15px;
+}
+
+.single-messagePlayer .video video {
+    width: 100%;
+}
+
+.single-messagePlayer 
+.content p{
+    font-size: 1.5rem;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.single-messagePlayer 
+.content h2{
+    font-size: 2rem;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    text-transform: lowercase;
+}
+
+@media screen and (max-width:800px) {
+    .single-messagePlayer{
+        flex-direction: column;
+        margin: 10px 2rem;
+        padding: 2rem 1rem;
+    }
+    .single-messagePlayer .content{
+        width: 100%;
+    }
+
+    .single-messagePlayer .video{
+        width: 420px;
+        border-radius: 15px;
+        margin-top: 30px;
+    }
+
+}

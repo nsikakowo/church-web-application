@@ -1,0 +1,33 @@
+.getApp{
+    text-align: center;
+    background-color: var(--clr-primary-4);
+    margin: 70px 5rem 0;
+    padding: 2rem 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.getApp h2{
+    font-size: 1.7rem;
+}
+.getApp h4{
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.getApp .buttons img {
+    width: 207px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+    .getApp h2{
+        padding: 2rem 1rem;
+    }
+
+    .getApp{
+        
+        margin: 70px 3rem 0;
+        padding: 2rem 0;
+        
+    }
+}

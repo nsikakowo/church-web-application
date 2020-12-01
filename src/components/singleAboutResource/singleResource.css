@@ -1,0 +1,34 @@
+.resource-container{
+    text-align: center;
+    margin: 5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resource-container .resource-banner{
+    width: 90%;
+    height: 150px;
+    border-radius: 5px;
+    background-color: var(--clr-primary-2);
+    border: 1px solid #f2f2f8;
+    margin-bottom: 2rem;
+}
+
+.resource-container .resource-content{
+    width: 80%;
+}
+
+.resource-container .resource-content p{
+    text-align: left;
+}
+
+.resource-container .resource-content h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.resource-container .resource-content
+button{
+    margin-right: 2rem;
+}

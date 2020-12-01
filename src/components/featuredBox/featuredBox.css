@@ -1,0 +1,81 @@
+.featuredBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    padding: 50px 3rem ;
+    margin: 0 auto;
+}
+
+.featuredBox article{
+    width: 30%;
+    margin: 0 2%;
+    background-color: var(--clr-primary-1);
+    padding: 30px 3%;
+    border-radius: 5px;
+    color: var(--clr-white);
+    min-height: 301px;
+    min-width: 362px;
+    position: relative;
+}
+
+.featuredBox article .overlay{
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 30px 3%;
+    border-radius: 5px;
+}
+
+
+.featuredBox article h4{
+    font-size: 1.7rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    margin: 10px 5px;
+    opacity: 1;
+}
+
+.featuredBox article p{
+    font-size: 0.9rem;
+    color: var(--clr-white);
+    margin-top: 40px;
+}
+
+.featuredBox #new-here{
+    background-image: url('./hello-long-time-no-see-friendly-joyful-nice-girl-with-short-brown-hair-pulling-palms-greeting-gesture-towards-saying-hi-give-warm-welcome-hug-friend-grey-wall-smiling-happily.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.featuredBox #beliefs{
+    background-image: url('./shallow-focus-shot-female-standing-train-tracks-while-praying.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.featuredBox #ministries{
+    background-image: url('./african-american-male-friends-standing-park-discussing-bible.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width:800px) {
+    .featuredBox {
+        /* display: flex; */
+        flex-direction: column;
+    }
+    
+    .featuredBox article{
+        margin-bottom: 30px;
+
+    }
+}

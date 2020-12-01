@@ -1,0 +1,38 @@
+.secondary-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    background-color: var(--clr-white);
+    box-shadow: var(--light-shadow);
+    height: 60px;
+}
+
+.left-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0rem;
+}
+
+.left-menu ul li:not(:first-child){
+    padding: 5px 35px;
+}
+
+.right-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0.7rem;
+}
+
+.right-menu ul li{
+    padding: 10px 22px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .secondary-menu{
+        display: none;
+    }
+}

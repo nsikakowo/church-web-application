@@ -1,0 +1,43 @@
+.groupContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 5rem;
+    color: var(--clr-primary-3);
+}
+
+.groupContainer .groupPhoto {
+    width: 390px;
+    height: 262px;
+    border-radius: 6px;
+    background-color: var(--clr-primary-2);
+    overflow: hidden;
+    flex: 1;
+}
+
+.groupContainer .groupPhoto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.groupContainer .groupContent{
+    padding: 0 2rem 2rem;
+    flex: 1.8;
+}
+
+.groupContainer .groupContent p{
+    width: 95%;
+}
+
+@media screen and (max-width:800px) {
+    .groupContainer{
+        flex-direction: column;
+        margin: 2rem 2rem;
+    }
+
+    .groupContainer .groupContent{
+        padding: 1rem 1rem 1rem;
+        flex: 1;
+    }
+}

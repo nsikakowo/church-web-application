@@ -1,0 +1,123 @@
+section{
+    width: 80vw;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+section h1{
+    text-align: center;
+    color: var(--clr-primary-3);
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto;
+    text-align: left;
+    color: var(--clr-primary-1);
+}
+
+.login input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin: 0.45rem auto;
+    border-radius: 2px;
+    border: 1px solid var(--clr-primary-1);
+}
+
+.login h4{
+    margin: 1rem auto;
+    color: var(--clr-primary-3);
+    text-align: center;
+}
+
+.login button{
+    padding: 5px 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--clr-primary-1);
+    color: var(--clr-primary-2);
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+
+
+section .social-icons{
+    display: flex;
+    width: 30vw;
+    margin: 3rem auto;
+}
+
+section .social-icons li{
+    text-align: center;
+    padding: 10px 10px;
+    color: var(--clr-primary-3);
+}
+
+@media screen and (min-width: 800px) {
+    section{
+        width: 40vw;
+        margin: 5rem auto;
+        text-align: center;
+    }
+    
+    section h1{
+        text-align: center;
+        color: var(--clr-primary-2);
+    }
+    
+    .login{
+        display: flex;
+        flex-direction: column;
+        margin: 3rem auto;
+        text-align: left;
+        color: var(--clr-primary-2);
+    }
+    
+    .login input{
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        margin: 0.45rem auto;
+        border-radius: 2px;
+        border: 1px solid var(--clr-primary-1);
+        color: var(--clr-primary-1);
+    }
+    
+    .login h4{
+        margin: 2rem auto;
+        color: var(--clr-primary-2);
+        text-align: center;
+    }
+    
+    .login button{
+        padding: 5px 15px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: var(--clr-primary-1);
+        color: var(--clr-primary-2);
+        border-radius: 2px;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    section .social-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40vw;
+        margin: 3rem auto;
+    }
+    
+    section .social-icons li{
+        text-align: center;
+        cursor: pointer;
+    }
+}
+

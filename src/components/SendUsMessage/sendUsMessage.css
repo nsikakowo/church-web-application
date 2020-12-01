@@ -1,0 +1,63 @@
+.message-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 5rem;
+}
+
+.message-container h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.message-container #sendMessage{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.form{
+    flex: 1;
+}
+
+#sendMessage input{
+    padding: 10px;
+    border: 1px solid var(--clr-primary-1);
+    border-radius: 5px;
+}
+
+#sendMessage textarea{
+    border: 1px solid var(--clr-primary-1);
+    border-radius: 5px;
+    grid-column: 1/span 2;
+}
+
+#sendMessage #check {
+    grid-column-start: 1;
+    
+}
+
+#sendMessage button{
+    grid-column-start: 1;
+}
+
+.google-map{
+   flex: 1;
+   background-color: var(--clr-primary-4);
+   border: 1px solid var(--clr-primary-1);
+   margin: 2rem 2rem;
+   width: 400px;
+   height: 500px;
+}
+
+@media screen and (max-width:800px) {
+    .message-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 1rem;
+    }
+}
+
