@@ -1,0 +1,130 @@
+.event{
+    margin: 2rem 5rem;
+    
+}
+
+.event .event-banner{
+    background-color: var(--clr-primary-1);
+    border-radius: 5px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.event .event-banner img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.event .event-content {
+    display: flex;
+    color: var(--clr-white);
+    padding: 3rem 4rem;
+    z-index: 5;
+    position: relative;
+    backdrop-filter: opacity(20%);
+    height:90%;
+    width:100%;
+}
+
+.event .event-content .event-title{
+    padding-right: 3rem;
+    border-right: 2px solid var(--clr-white);
+    line-height: 1.9;
+    text-align: center;
+    flex: 1;
+    color: var(--clr-primary-5);
+    font-weight: 500;
+}
+
+.event .event-subtitle{
+    color: var(--clr-white);
+    flex: 1.4;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -30px;
+    color: var(--clr-primary-5);
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.event .event-subtitle .subtitle{
+    color: var(--clr-white);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: var(--clr-primary-5);
+    font-weight: 500;
+}
+
+.event .event-subtitle .date{
+    color: var(--clr-white);
+    font-size: 1.2rem;
+    color: var(--clr-primary-5);
+    font-weight: 500;
+}
+
+
+.event-details{
+    text-align:center;
+    width: 100%;
+
+}
+
+.event-details .event-heading{
+    font-size: 1.4rem;
+    color: var(--clr-primary-2);
+}
+
+.event-details p{
+    padding: 0.8rem 4rem;
+    color: var(--clr-primary-3);
+}
+
+
+@media screen and (max-width:800px) {
+    .event{
+        margin: 1rem 1rem;
+        
+    }
+
+    .event-details p{
+        padding: 0.8rem 1rem;
+       
+    }
+
+    .event .event-banner{
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+    .event .event-content {
+        display: flex;
+        color: var(--clr-white);
+        padding: 1rem 1rem;
+        
+    }
+
+    .event .event-content .event-title{
+        padding: 4rem 1rem;
+        border-right: 2px solid var(--clr-white);
+        line-height: 1.6;
+        text-align: center;
+        flex: 1;
+        color: var(--clr-primary-5);
+        font-weight: 500;
+    }
+   
+}

@@ -1,10 +1,10 @@
-section{
+.signup{
     width: 80vw;
     margin: 5rem auto;
     text-align: center;
 }
 
-section h1{
+.signup h1{
     text-align: center;
     color: var(--clr-primary-3);
 }
@@ -47,26 +47,26 @@ section h1{
 
 
 
-section .social-icons{
+.signup .social-icons{
     display: flex;
     width: 30vw;
     margin: 3rem auto;
 }
 
-section .social-icons li{
+.signup .social-icons li{
     text-align: center;
     padding: 10px 10px;
     color: var(--clr-primary-3);
 }
 
 @media screen and (min-width: 800px) {
-    section{
+    .signup{
         width: 40vw;
         margin: 5rem auto;
         text-align: center;
     }
     
-    section h1{
+    .signup h1{
         text-align: center;
         color: var(--clr-primary-2);
     }
@@ -110,7 +110,7 @@ section .social-icons li{
     
     
     
-    section .social-icons{
+    .signup .social-icons{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -118,7 +118,7 @@ section .social-icons li{
         margin: 3rem auto;
     }
     
-    section .social-icons li{
+    .signup .social-icons li{
         text-align: center;
         cursor: pointer;
     }

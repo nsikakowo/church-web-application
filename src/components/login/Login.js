@@ -4,7 +4,7 @@ import './login.css';
 
 function Login() {
     return (
-        <section>
+        <section className='login-container'>
             <h1>Welcome back</h1>
             <form className='login'>
                 <label htmlFor="email"> Email:<br/>

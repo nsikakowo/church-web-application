@@ -1,0 +1,12 @@
+.sales-List{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+
+@media screen and (max-width:800px) {
+    .sales-List{
+        flex-direction: column;
+    }
+}

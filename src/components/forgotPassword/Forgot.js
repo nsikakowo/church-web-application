@@ -3,7 +3,7 @@ import './forgot.css';
 
 function Forgot() {
     return (
-        <section>
+        <section className='forgotPassword'>
             <p>Please fill in the form below with the email address associated 
                 with your account and click "Reset My Password". 
                 Instructions for resetting your password will be sent to you.</p>

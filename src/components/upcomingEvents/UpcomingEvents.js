@@ -8,7 +8,7 @@ function UpcomingEvents() {
     return (
         <div className= 'upcomingEvents'>
             <h1>Upcoming Events</h1>
-        <section>
+        <div className=' upcomingContainer'>
             <article className='event'>
                 <div className="event-photo">
                 <img src={recharge} alt="event"/>
@@ -31,7 +31,7 @@ function UpcomingEvents() {
                 <p>Foster & Adoption Group</p>
             </article>
            
-        </section>
+        </div>
         </div>
     )
 }

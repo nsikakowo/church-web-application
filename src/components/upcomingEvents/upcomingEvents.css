@@ -9,14 +9,14 @@
     margin-bottom: 30px;
 }
 
-.upcomingEvents section{
+.upcomingEvents .upcomingContainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
 }
 
-.upcomingEvents section
+.upcomingEvents .upcomingContainer
 .event-photo{
     width: 345px;
     height: 272px;
@@ -25,14 +25,14 @@
     overflow: hidden;
 }
 
-.upcomingEvents section
+.upcomingEvents .upcomingContainer
 .event-photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.upcomingEvents section article{
+.upcomingEvents .upcomingContainer article{
     margin: 0.4rem;
 }
 
@@ -48,7 +48,7 @@
 }
 
 @media screen and (max-width:800px) {
-    .upcomingEvents section{
+    .upcomingEvents .upcomingContainer{
        flex-direction: column;
         margin: 10px auto;
         justify-content: center;
@@ -56,12 +56,12 @@
        
     }
 
-    .upcomingEvents section
+    .upcomingEvents .upcomingContainer
 .event-photo{
     overflow: hidden;
 }
 
-    .upcomingEvents section
+    .upcomingEvents .upcomingContainer
 .event-photo{
     width: 345px;
     height: 272px;

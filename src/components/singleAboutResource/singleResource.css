@@ -31,4 +31,15 @@
 .resource-container .resource-content
 button{
     margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width:800px) {
+    .resource-container{  
+        margin: 5rem 2rem;  
+    }
+
+    .resource-container .resource-content{
+        width: 95%;
+    }
 }

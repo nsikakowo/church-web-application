@@ -1,10 +1,10 @@
-section{
+.login-container{
     width: 80vw;
     margin: 5rem auto;
     text-align: center;
 }
 
-section h1{
+.login-container h1{
     text-align: center;
     color: var(--clr-primary-3);
 }
@@ -45,26 +45,26 @@ section h1{
 
 
 
-section .social-icons{
+.login-container .social-icons{
     display: flex;
     width: 30vw;
     margin: 3rem auto;
 }
 
-section .social-icons li{
+.login-container .social-icons li{
     text-align: center;
     padding: 10px 10px;
     color: var(--clr-primary-3);
 }
 
 @media screen and (min-width: 800px) {
-    section{
+    .login-container{
         width: 40vw;
         margin: 5rem auto;
         text-align: center;
     }
     
-    section h1{
+    .login-container h1{
         text-align: center;
         color: var(--clr-primary-2);
     }
@@ -107,7 +107,7 @@ section .social-icons li{
     
     
     
-    section .social-icons{
+    .login-container .social-icons{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -115,7 +115,7 @@ section .social-icons li{
         margin: 3rem auto;
     }
     
-    section .social-icons li{
+    .login-container .social-icons li{
         text-align: center;
         cursor: pointer;
     }

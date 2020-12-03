@@ -4,7 +4,7 @@ import './signup.css';
 
 function SignUp() {
     return (
-        <section>
+        <div className='signup'>
             <h1>Create your Account</h1>
             <form className='login'>
             <label htmlFor="firstname"> First Name:<br/>
@@ -28,7 +28,7 @@ function SignUp() {
                 <li><FaTwitter /></li>
                 <li><FaGoogle/></li>
             </ul>
-        </section>
+        </div>
     )
 }
 

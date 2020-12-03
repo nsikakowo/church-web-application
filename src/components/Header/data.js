@@ -14,22 +14,22 @@ export const links = [
   },
   {
     id: 3,
-    url: '/projects',
+    url: '/serviceTimes',
     text: 'service times',
   },
   {
     id: 4,
-    url: '/contact',
+    url: '/eventsPage',
     text: 'events',
   },
   {
     id: 5,
-    url: '/profile',
+    url: '/store',
     text: 'store',
   },
   {
     id: 6,
-    url: '/profile',
+    url: '/givePage',
     text: 'give',
   },
 ];
