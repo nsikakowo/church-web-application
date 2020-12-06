@@ -3,7 +3,7 @@ import React from 'react';
 export const left = [
   {
     id: 1,
-    url: '/watch-live',
+    url: '/welcomeToChurch',
     text: 'watch Live',
   },
   {

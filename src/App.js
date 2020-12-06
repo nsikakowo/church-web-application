@@ -1,6 +1,5 @@
 import {
   BrowserRouter as Router,
-  
   Route,
   Switch,
 } from 'react-router-dom';
@@ -15,6 +14,8 @@ import Store from './screens/Store';
 import GivePage from './screens/GivePage';
 import SignIn from './screens/SignIn';
 import Register from './screens/Register';
+import WelcomeToChurch from './screens/WelcomeToChurch';
+import NewHere from './screens/NewHere';
 
 import './App.css';
 
@@ -44,6 +45,9 @@ function App() {
           <Route path="/connect">
             <Connect />
           </Route>
+          <Route path="/welcomeToChurch">
+            <WelcomeToChurch />
+          </Route>
           <Route path="/givePage">
             <GivePage />
           </Route>
@@ -52,6 +56,9 @@ function App() {
           </Route>
           <Route path="/register">
             <Register />
+          </Route>
+          <Route path="/newHere">
+            <NewHere />
           </Route>
         </Switch>
      

@@ -1,10 +1,28 @@
 #slider{
-    height: 660px;
+    position: relative;
+    height: 760px;
+    min-height: 660px;
     background-color: var(--clr-primary-1);
-    background-image: url('./pastor.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    
+}
+
+.slide{
+    position: relative;
+    overflow: hidden;
+}
+
+#slider .slide .slide-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.slide-image img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
 }
 
 #slider .slide{
@@ -18,15 +36,21 @@
 }
 
 .slide h1{
+    margin-top: 2rem;
     font-size: 2.7rem;
     text-transform: uppercase;
+    text-shadow: var(--dark-shadow);
+    z-index: 5;
 }
 
 .slide h5{
     color: #FCA44A;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 500;
+    width: 70%;
+    text-shadow: var(--dark-shadow);
+    z-index: 6;
 }
 
 #slider .event-countdown{
@@ -46,13 +70,14 @@
 
     .slide h1{
         font-size: 2rem;
-        margin-top: 4rem;
+        margin-top: 5rem;
         text-align: left;
     }
 
     .slide h5{
         font-size: 1.7rem;
         text-align: left;
+        width: 90%;
     }
 
     #slider .event-countdown{

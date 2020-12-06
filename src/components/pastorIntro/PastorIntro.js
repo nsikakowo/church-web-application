@@ -14,10 +14,12 @@ function PastorIntro() {
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                             It has survived not only five centuries, but also the leap into electronic typesetting,
                             remaining essentially unchanged.</p>
-                            <button type="submit" className='btn-outline'>More Info</button>
+                            <button type="submit" className='btn-primary'>More Info</button>
                 </div>
                 <div className="image">
-                    <img src={pastorPicture} alt="pastorpicture"/>
+                    <div className="intro-pix">
+                    <img src='https://i.pinimg.com/564x/99/49/d7/9949d7c9d17386039b7c07c581e9feec.jpg' alt="pastorpicture"/>
+                    </div>
                     <h5>David & Tamara Simpsons</h5>
                     <p>Senior Pastor AFTJ Church</p>
                 </div>

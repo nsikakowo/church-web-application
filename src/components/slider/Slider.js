@@ -1,5 +1,6 @@
 import React from 'react'
 import NextEvent from '../nextEvent/NextEvent'
+import SlideBg from './pastor.png'
 import './slider.css';
 
 function Slider(props) {
@@ -7,6 +8,9 @@ function Slider(props) {
     return (
         <main id='slider'>
             <div className="slide">
+                <div className="slide-image">
+                    <img src={SlideBg} alt="slider-background"/>
+                </div>
                 <h1>{heading} </h1>
     <h5>{tagline}</h5>
             </div>

@@ -37,12 +37,12 @@ export const links = [
 export const social = [
   {
     id: 1,
-    url: 'https://www.twitter.com',
+    url: '',
     icon: <FaSearch />,
   },
   {
     id: 2,
-    url: 'https://www.twitter.com',
+    url: '',
     icon: <GiShoppingCart />,
   },
   

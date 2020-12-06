@@ -7,7 +7,7 @@ function SecondayMenu() {
         <nav className='secondary-menu'>
             <div className="left-menu">
                 <ul>
-                    <li> <Link to='./watch'>Watch Online
+                    <li> <Link to='./welcomeToChurch'>Watch Online
                 </Link></li>
                     <li> <Link to='./sermonPage'>Sermons
                 </Link></li>

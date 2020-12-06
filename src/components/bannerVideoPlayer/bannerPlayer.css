@@ -1,0 +1,7 @@
+.bannerPlayer{
+    margin: 3rem 5rem;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: var(--clr-primary-2);
+    height: 250px;
+}

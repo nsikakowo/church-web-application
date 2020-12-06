@@ -1,7 +1,7 @@
 import React from 'react'
 import Church from './church.jpg'
 import City from './city.jpg'
-import World from './world.jpg'
+// import World from './world.jpg'
 import './ourMission.css';
 
 function OurMission() {
@@ -15,7 +15,7 @@ function OurMission() {
                     </div>
                     <h3>Serve the Church</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and 
-                        typesetting industry. Lorem Ipsum has been the 
+                        typesetting industry. Lorem Ipsum has been the
                         industry's standard dummy text ever since the 1500s,
                         when an unknown printer took a galley of type</p>
                         <button>Learn More</button>
@@ -33,7 +33,7 @@ function OurMission() {
                 </div>
                 <div className="mission">
                 <div className="feature-photo">
-                <img src={World} alt="world"/>
+                <img src='https://mk0journeyonlinx1ufs.kinstacdn.com/wp-content/uploads/sites/5/2020/07/joel-muniz-BErJJL_KsjA-unsplash-1024x683.jpg' alt="world"/>
                 </div>
                     <h3>Serve the World</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and 

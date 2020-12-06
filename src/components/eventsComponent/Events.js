@@ -1,13 +1,13 @@
 import React from 'react'
 import './events.css'
-import bannerbg from '../upcomingEvents/recharge.jpg'
+// import bannerbg from '../upcomingEvents/recharge.jpg'
 
 function Events() {
     return (
         <>
         <div className='event'>
             <div className="event-banner">
-                <img src={bannerbg} alt="banner"/>
+                <img src='' alt="banner"/>
                 <div className="event-content">
                     <h3 className='event-title'>
                      Recharge Conference 2020
@@ -34,7 +34,7 @@ function Events() {
         </div>
         <div className='event'>
             <div className="event-banner">
-                <img src={bannerbg} alt="banner"/>
+                <img src='' alt="banner"/>
                 <div className="event-content">
                     <h3 className='event-title'>
                      Recharge Conference 2020

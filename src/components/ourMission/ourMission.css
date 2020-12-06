@@ -1,6 +1,7 @@
 .mission-container{
     text-align: center;
     margin: 2rem 0;
+    color: var(--clr-primary-3)
 }
 
 .mission-container h2 {
@@ -45,6 +46,7 @@
 
 .mission p{
     width: 100%;
+    color: var(--clr-primary-3)
 }
 
 .mission button {
