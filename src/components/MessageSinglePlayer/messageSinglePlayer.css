@@ -16,7 +16,8 @@
     border-radius: 15px;
 }
 
-.single-messagePlayer .video video {
+.single-messagePlayer .video video,
+.single-messagePlayer .video iframe {
     width: 100%;
 }
 

@@ -16,7 +16,7 @@ function WelcomeToChurch() {
         <div>
              <NavBar/>
             <SecondaryMenu/>
-            <SingleSlider heading ={'THE EXPERIENCE'} tagline = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '} />
+            <SingleSlider heading ={'New Life In Christ'}  />
             <SubTitle 
              heading={'Expect Great Things'}
              subheading= {'Our heart is to help you reach your full God given potential. If you\'re ever in the our area, come visit us. As Pastor Davids says, we\'ll make sure you feel right at home.'}

@@ -50,7 +50,7 @@
     }
 
     .timer div p{
-        font-size: 1rem;
+        font-size: 1.4rem;
         margin: 1px;
     }
     
@@ -58,20 +58,32 @@
         margin: 0;
     }
 
+    .timer-container .title{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
     .timer-container .title h3{
-        font-size: 1rem;
-    
+        font-size: 1.4rem;
+        color: var(--clr-white);
+        margin-bottom: 1px;
     }
     
     .timer-container .title p{
-        font-size: 1rem;
+        font-size: 1.2rem;
+        font-weight: 500;
         color: #fff;
+        padding: 0;
         margin: 0;
+        color: var(--clr-primary-5);
     }
 
     .timer-container{
         width: 100vw;
         margin: 5px 2px 5px;
         padding: 2px 10px;
+        flex-direction: column;
     }
 }

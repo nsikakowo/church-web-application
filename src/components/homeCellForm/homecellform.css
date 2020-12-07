@@ -1,0 +1,43 @@
+.cell-form {
+    padding: 1rem 5rem;
+    width: 100%;
+    margin-top: -5rem;
+}
+
+.cell-form form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 70%;
+    margin: 1rem auto;
+    text-align: left;
+}
+
+.cell-form form label {
+    text-align: left;
+    margin: 1rem 0 0.4rem;
+}
+
+.cell-form form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--clr-primary-1);
+    outline: none;
+    border-radius: 3px;
+}
+
+.cell-form form input:focus{
+    box-shadow: var(--light-shadow);
+}
+
+.cell-form input[type = 'radio'] {
+    margin-left: 0;
+    
+    width: 5%;
+    margin: 1rem 0;
+    
+}
+
+.cell-form button{
+    margin-top: 2rem;
+}

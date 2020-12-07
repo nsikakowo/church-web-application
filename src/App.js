@@ -16,6 +16,9 @@ import SignIn from './screens/SignIn';
 import Register from './screens/Register';
 import WelcomeToChurch from './screens/WelcomeToChurch';
 import NewHere from './screens/NewHere';
+import NewLifeInChrist from './screens/NewLifeInChrist';
+import HomeCellGroup from './screens/HomeCellGroup';
+import Volunteer from './screens/Volunteer';
 
 import './App.css';
 
@@ -59,6 +62,15 @@ function App() {
           </Route>
           <Route path="/newHere">
             <NewHere />
+          </Route>
+          <Route path="/newlifeinchrist">
+            <NewLifeInChrist />
+          </Route>
+          <Route path="/homecellgroup">
+            <HomeCellGroup />
+          </Route>
+          <Route path="/Volunteer">
+            <Volunteer />
           </Route>
         </Switch>
      

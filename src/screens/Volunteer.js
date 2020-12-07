@@ -3,33 +3,30 @@ import NavBar from '../components/Header/NavBar'
 import SecondaryMenu from '../components/secondaryMenu/SecondayMenu'
 import SingleSlider from '../components/singleSlider/SingleSlider'
 import SubTitle from '../components/subTitle/SubTitle'
-import Beliefs  from '../components/beliefs/Beliefs'
-import NewMemberForm from '../components/newMemberForm/NewMemberForm'
-// import InfoBoard from '../components/infoBoard/InfoBoard'
-
+import VolunteerForm from '../components/volunteerForm/VolunteerForm'
 import MessageSinglePlayer from '../components/MessageSinglePlayer/MessageSinglePlayer'
+import Beliefs  from '../components/beliefs/Beliefs'
 import Footer from '../components/footer/Footer'
 
-function NewHere() {
+function Volunteer() {
     return (
-        <div>
+        <div >
              <NavBar/>
             <SecondaryMenu/>
-            <SingleSlider heading ={'welcome to church'} tagline = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '} />
+            <SingleSlider heading ={'CHURCH WORKFORCE'} tagline = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '} />
             <SubTitle 
              
-             subheading= {'We are very delighted that you are here. Our Team would love to serve you and help you get connected'}
+             subheading= {'Home cell is a vital part Jubilee Christian Church Int’l. This is because it is the best way you can connect to others with the passion in the church.\
+             Each home cell group is a healthy community of people, expressing what they believe, exploiting their faith together and developing friendship.\
+             Most of the home cell group meet at least once a month. If you want to plug into any of the life group, register below.  '}
             
             />
             <SubTitle 
              heading={'FILL THE FORM BELOW'}
 
             />
-            <NewMemberForm />
-            {/* <InfoBoard title = {'We Are Easy To Find'} btn = {'click for directions'}
-            description = {'Kidslife is a place where Kids experience that God is Great.  Lorem Ipsum is simply dummy text of the printing and typesetting industry. '}
-            
-            /> */}
+            <VolunteerForm />
+            <MessageSinglePlayer />
             <Beliefs 
              beliefTitle ={'We Are Easy To Find'}
              beliefText = {'Kidslife is a place where Kids experience that God is Great.  Lorem Ipsum is simply dummy text of the printing and typesetting industry. '}
@@ -39,11 +36,9 @@ function NewHere() {
             beliefBtnRight = {'CONTACT US NOW'}
 
             />
-            <MessageSinglePlayer />
             <Footer/>
-
         </div>
     )
 }
 
-export default NewHere
+export default Volunteer
