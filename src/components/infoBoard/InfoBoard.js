@@ -3,7 +3,9 @@ import './infoBoard.css'
 
 function InfoBoard(props) {
 
-const {image, title, description, btn } = props
+const {image, title, description, btn, children,
+    showBtn = true
+} = props
 
     return (
         <div className='infoboard'>
@@ -13,7 +15,8 @@ const {image, title, description, btn } = props
             <div className="info-details">
                 <h2> {title} </h2>
                 <p> {description} </p>
-                     <button className='btn-outline'> {btn} </button>
+                {children}
+                     {showBtn && <button className='btn-outline'> {btn} </button>}
             </div>
         </div>
     )

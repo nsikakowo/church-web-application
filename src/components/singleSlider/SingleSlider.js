@@ -7,7 +7,7 @@ function SingleSlider(props) {
         <div id='singleSlider'>
              <div className="single-slide">
              <div className="slide-bg">
-                    <img src='https://images.unsplash.com/photo-1602025747966-d2eb8bdeeea8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80' alt="slider-background"/>
+                    <img src='https://blog.loveawake.com/wp-content/uploads/2020/10/alex-wark-vu8lKvryurg-unsplash-980x551.jpg' alt="slider-background"/>
                 </div>
                 <h1>{heading} </h1>
     <h5>{tagline}</h5>

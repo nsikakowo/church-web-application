@@ -19,6 +19,8 @@ import NewHere from './screens/NewHere';
 import NewLifeInChrist from './screens/NewLifeInChrist';
 import HomeCellGroup from './screens/HomeCellGroup';
 import Volunteer from './screens/Volunteer';
+import Missions from './screens/Missions';
+import EventsSingle  from './screens/EventsSingle';
 
 import './App.css';
 
@@ -71,6 +73,12 @@ function App() {
           </Route>
           <Route path="/Volunteer">
             <Volunteer />
+          </Route>
+          <Route path="/missions">
+            <Missions />
+          </Route>
+          <Route path="/eventssingle">
+            <EventsSingle />
           </Route>
         </Switch>
      

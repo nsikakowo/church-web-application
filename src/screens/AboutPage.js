@@ -34,7 +34,7 @@ function AboutPage() {
             beliefTitleRight ={'The Trinity'}
             beliefTextRight = {'Lorem Ipsum is  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. '}
            beliefPortionRight ={'See Matthew 3 : 16'}
-
+           showBeliefBtn={false}
             />
             <Beliefs 
              beliefTitle ={'Salvation'}
@@ -43,7 +43,7 @@ function AboutPage() {
             beliefTitleRight ={'water baptism'}
             beliefTextRight = {'Lorem Ipsum is  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. '}
            beliefPortionRight ={'See Matthew 3 : 16'}
-
+           showBeliefBtn={false}
             />
             <Beliefs 
              beliefTitle ={'communion'}
@@ -52,7 +52,7 @@ function AboutPage() {
             beliefTitleRight ={'Relationship with god'}
             beliefTextRight = {'Lorem Ipsum is  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. '}
            beliefPortionRight ={'See John 3 : 16'}
-
+           showBeliefBtn={false}
             />
             <SingleResource />
             <NeedPrayers />
