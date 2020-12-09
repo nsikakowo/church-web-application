@@ -8,8 +8,9 @@
 }
 
 .featuredBox article{
-    width: 30%;
-    margin: 0 2%;
+    width: 363px;
+    height: 301px;
+    margin: 0 1rem;
     background-color: var(--clr-primary-1);
     padding: 30px 3%;
     border-radius: 5px;

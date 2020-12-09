@@ -66,6 +66,11 @@
     display: none;
   }
 
+  .social-icons li {
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+
   .links-container {
     overflow: hidden;
     transition: var(--transition);
@@ -122,6 +127,7 @@
     .social-icons {
       display: flex;
       margin: 0 0.7rem ;
+      /* position: relative; */
     }
     .social-icons a {
      padding: 0 0.7rem;
@@ -136,5 +142,23 @@
     .social-icons a:hover {
       color: var(--clr-primary-7);
     }
+
+    .search.active{
+      display: block;
+    }
+
+  .search{
+      display: none;
+      position: absolute;
+      top: 70px;
+      right: 9rem;
+      padding: 15px;
+      outline: none;
+      border: 1px solid var(--clr-primary-1);
+      border-radius: 3px;
+      box-shadow: var(--dark-shadow);
+      width: 85vw;
+      font-size: 1rem;
+      color: var(--clr-primary-2);
   }
-  
+  }

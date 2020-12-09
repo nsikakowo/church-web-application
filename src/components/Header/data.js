@@ -1,6 +1,5 @@
 import React from 'react';
-import {  FaSearch } from 'react-icons/fa';
-import {  GiShoppingCart } from 'react-icons/gi'
+
 export const links = [
   {
     id: 1,
@@ -34,16 +33,4 @@ export const links = [
   },
 ];
 
-export const social = [
-  {
-    id: 1,
-    url: '',
-    icon: <FaSearch />,
-  },
-  {
-    id: 2,
-    url: '',
-    icon: <GiShoppingCart />,
-  },
-  
-];
+

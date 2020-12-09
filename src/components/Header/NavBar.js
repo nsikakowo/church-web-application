@@ -1,11 +1,14 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
-import { links, social } from './data';
+import { links } from './data';
 import { Link } from 'react-router-dom'
 import logo from './logo.png';
+import {  FaSearch } from 'react-icons/fa';
+import {  GiShoppingCart } from 'react-icons/gi'
 import './navbar.css'
 
 const Navbar = () => {
+  const [active, setActive] = useState(false);
   const [showLinks, setShowLinks] = useState(false);
   const linksContainerRef = useRef(null);
   const linksRef = useRef(null);
@@ -20,6 +23,11 @@ const Navbar = () => {
       linksContainerRef.current.style.height = '0px';
     }
   }, [showLinks]);
+
+
+  
+
+
   return (
     <nav id='primary-nav'>
       <div className='nav-center'>
@@ -41,14 +49,20 @@ const Navbar = () => {
           </ul>
         
         <ul className='social-icons'>
-          {social.map((socialIcon) => {
-            const { id, url, icon } = socialIcon;
-            return (
-              <li key={id}>
-                <a href={url}>{icon}</a>
+            <li onClick={() => setActive(!active)} >
+             
+
+
+             <FaSearch />
               </li>
-            );
-          })}
+          <li> <GiShoppingCart /></li>
+          <input type="search" 
+              name="search" 
+              id="search" 
+              placeholder='Search...'
+              className = {active ? 'search active' : 'search'}
+              
+              />
         </ul>
         </div>
       </div>
