@@ -17,10 +17,9 @@ import Footer from '../components/footer/Footer'
 function HomePage() {
     return (
         <div>
-            <NavBar/>
+             <NavBar/>
             <SecondaryMenu/>
-            <Slider heading= { 'Welcome to church of god' } 
-             tagline= {'...where God Lives'}/>
+            <Slider />
             <FeaturedBox />
             <PastorIntro />
             <OurMission/>

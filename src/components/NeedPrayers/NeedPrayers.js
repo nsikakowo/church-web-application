@@ -23,10 +23,9 @@ function NeedPrayers() {
                
                 <div className="write-up">
                 <div className="content">
-                  <h3>  Need Prayer? <br/> we will Pray for you</h3>
-                  <p>Need prayer? We would love
-                       to pray along with you. You can send us a message for prayer.</p>
-                       <button className='btn-outline'>Send Us a Message</button>
+                  <h3>  Want to Share Thoughts? <br/>Join Our Chat Group!</h3>
+                  <p>Do you have something that is troubling you and you want to share? Share your thoughts on our audio chat group.</p>
+                       <button className='btn-outline'>JOIN OUR CHAT GROUP</button>
                        </div>
                 </div>
                 <div className="photo">

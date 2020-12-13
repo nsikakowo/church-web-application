@@ -15,8 +15,8 @@ Variables
     /* primary/main color */
     --clr-primary-5: #fca44a;
     /* lighter shades of primary color */
-    --clr-primary-6: hsl(205, 89%, 70%);
-    --clr-primary-7: hsl(205, 90%, 76%);
+    --clr-primary-6: #eeeeee;
+    --clr-primary-7: #f6f4f2;
     --clr-primary-8: hsl(205, 86%, 81%);
     --clr-primary-9: hsl(205, 90%, 88%);
     --clr-primary-10: hsl(205, 100%, 96%);
@@ -37,7 +37,7 @@ Variables
     --clr-red-light: hsl(360, 71%, 66%);
     --clr-green-dark: hsl(125, 67%, 44%);
     --clr-green-light: hsl(125, 71%, 66%);
-    --clr-black: #222;
+    --clr-black: #000;
     --transition: all 0.3s linear;
     --spacing: 0.1rem;
     --radius: 0.25rem;
@@ -101,7 +101,7 @@ Variables
 
   .btn-primary{
     background-color: var(--clr-primary-1);
-    padding: 10px 15px;
+    padding: 15px 25px;
     cursor: pointer;
     border: none;
     outline: none;
@@ -111,13 +111,28 @@ Variables
   }
   .btn-outline{
     background-color: transparent;
-    padding: 10px 15px;
+    padding: 15px 35px;
     cursor: pointer;
     border: 1px solid var(--clr-primary-3);
     outline: none;
     border-radius: 3px;
     box-shadow: var(--light-shadow);
     text-transform: uppercase;
+  }
+
+  .btn-noline{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: .8s;
+  }
+
+  .btn-noline:hover{
+    text-decoration: underline;
   }
 
   @media screen and (min-width: 800px) {

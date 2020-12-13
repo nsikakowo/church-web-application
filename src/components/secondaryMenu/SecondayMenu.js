@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './secondaryMenu.css'
 
 function SecondayMenu() {
@@ -7,20 +7,20 @@ function SecondayMenu() {
         <nav className='secondary-menu'>
             <div className="left-menu">
                 <ul>
-                    <li> <Link to='./welcomeToChurch'>Watch Online
-                </Link></li>
-                    <li> <Link to='./sermonPage'>Sermons
-                </Link></li>
-                    <li> <Link to='./Connect'>Connect
-                </Link></li>
+                    <li> <NavLink to='./welcomeToChurch' activeClassName='main-active'>Watch Online
+                </NavLink></li>
+                    <li> <NavLink to='./sermonPage' activeClassName='main-active'>Sermons
+                </NavLink></li>
+                    <li> <NavLink to='./Connect' activeClassName='main-active'>Connect
+                </NavLink></li>
                 </ul>
             </div>
             <div className="right-menu">
                 <ul>
-                <li> <Link to='./register'>Sign Up
-                </Link></li>
-                    <li> <Link to='./SignIn'>Log In
-                </Link></li>
+                <li> <NavLink to='./register' activeClassName='main-active'>Sign Up
+                </NavLink></li>
+                    <li> <NavLink to='./SignIn' activeClassName='main-active'>Log In
+                </NavLink></li>
                     
                 </ul>
             </div>

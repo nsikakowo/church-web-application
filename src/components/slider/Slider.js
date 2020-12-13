@@ -1,24 +1,61 @@
-import React from 'react'
+import React, {useState, useEffect } from 'react'
 import NextEvent from '../nextEvent/NextEvent'
-// import SlideBg from './pastor.png'
+import axios from "axios";
 import './slider.css';
 
+
+
+const sliderUrl = "https://church.aftjdigital.com/api/sliders"
+
 function Slider(props) {
-    const {heading, tagline} = props
+    
+    const [sliderData, setSliderData] = useState([]);
+    const { image, sub_title, title} = props;
+
+    const getSliderContents = async () => {
+        const response = await axios.get(sliderUrl);
+        const content =  response.data;
+        setSliderData(content);
+        
+        
+    }
+
+    useEffect(() => {
+        getSliderContents();
+    }, [])
+
+    
+    // console.log("slider", sliderData)
+
+
+   if(sliderData) {
     return (
         <main id='slider'>
-            <div className="slide">
-                <div className="slide-image">
-                    <img src='https://tylerperry.com/wp-content/uploads/2018/08/image-2-1080x720.png' alt="slider-background"/>
-                </div>
-                <h1>{heading} </h1>
-    <h5>{tagline}</h5>
-            </div>
-            <div className="event-countdown">
-                <NextEvent/>
-            </div>
+            {sliderData.map((item, i) => {
+                if(i === 0) {
+
+                    return (
+                        <div className="slide" key= {item.id}>
+                        <div className="slide-image">
+                            <img src={item.image} alt="slider-background"/>
+                        </div>
+                        <h1>{item.title} </h1>
+                         <h5>...{item.sub_title}</h5>
+            
+                    </div>
+                    )
+                }
+            })}
+          
+                    <div className="event-countdown">
+                        <NextEvent/>
+                    </div>
         </main>
     )
+   }
 }
+
+    
+
 
 export default Slider

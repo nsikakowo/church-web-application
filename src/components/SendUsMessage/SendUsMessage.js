@@ -13,12 +13,12 @@ function SendUsMessage() {
                     placeholder='Your Email Address'/>
                     <textarea name="message"  cols="30" 
                     rows="10"></textarea>
-                    <label htmlFor="checkbox">
+                    <label htmlFor="checkbox" id= 'checkLabel'>
                     <input type="checkbox" name="agreement" id='check'
                      value='agreement'/>
                           I agree that my submitted data is 
                      been collected and stored.</label>
-                     <button className= 'btn-primary' >send message</button>
+                     <button className= 'btn-primary' id='message-btn' >send message</button>
                 </form>
             </div>
             <div className="google-map">

@@ -24,24 +24,31 @@
 }
 
 #sendMessage input{
-    padding: 10px;
+    padding: 18px;
     border: 1px solid var(--clr-primary-1);
     border-radius: 5px;
+    border: none;
+    background-color: var(--clr-primary-7);
 }
 
 #sendMessage textarea{
-    border: 1px solid var(--clr-primary-1);
+    border: none;
     border-radius: 5px;
     grid-column: 1/span 2;
+    background-color: var(--clr-primary-7);
 }
 
 #sendMessage #check {
-    grid-column-start: 1;
-    
+    margin-right: 1rem;
 }
 
-#sendMessage button{
+#checkLabel{
+    grid-column: 1/span 2;
+}
+
+#sendMessage #message-btn{
     grid-column-start: 1;
+    width: 180px;
 }
 
 .google-map{

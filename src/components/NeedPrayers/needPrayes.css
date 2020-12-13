@@ -9,22 +9,27 @@
 
 .prayers {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .prayers .write-up {
     padding-left: 3rem;
+    flex: 1;
 }
 
 .prayers .write-up {
     padding-left: 3rem;
+    flex: 1;
+    width: 50%;
 }
 
 .prayers .photo{
-    width: 805px;
+    /* width: 805px; */
     height: 500px;
     background-color: var(--clr-primary-2);
+    overflow: hidden;
+    width: 50%;
 }
 
 .prayers .photo img{

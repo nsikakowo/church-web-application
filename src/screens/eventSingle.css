@@ -1,0 +1,17 @@
+.bible-portion{
+    height: 400px;
+    margin: 2rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a60303;
+    border: 40px solid #191C52;
+    
+}
+
+.bible-portion p{
+    width: 50%;
+    color: var(--clr-white);
+    text-align: center;
+    font-size: 24px;
+}

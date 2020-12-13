@@ -11,16 +11,16 @@
 
 .missions{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 20px auto;
-    padding: 30px 5rem;
+    margin: 20px 4rem;
+    /* padding: 30px 4rem; */
     text-align: center;
 }
 
 .mission{
-    width: 365px;
-    margin-left: 1rem;
+    width: 363px;
+    margin:0 1rem;
 }
 
 .mission .feature-photo{
@@ -40,13 +40,14 @@
 
 .mission h3{
    font-size: 1.4rem;
-   color: var(--clr-primary-2);
+   color: var(--clr-black);
    font-style: italic;
 }
 
 .mission p{
     width: 100%;
-    color: var(--clr-primary-3)
+    color: var(--clr-black);
+    line-height: 30px;
 }
 
 .mission button {
@@ -56,7 +57,7 @@
     cursor: pointer;
     font-size: 1.2rem;
     font-weight: 600;
-    color: var(--clr-primary-2);
+    color: var(--clr-black);
 }
 
 @media screen and (max-width:800px) {

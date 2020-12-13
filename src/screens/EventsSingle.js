@@ -4,9 +4,12 @@ import SecondaryMenu from '../components/secondaryMenu/SecondayMenu'
 import SingleSlider from '../components/singleSlider/SingleSlider'
 import SubTitle from '../components/subTitle/SubTitle'
 import InfoBoard from '../components/infoBoard/InfoBoard'
+import EventSummaryBanner from '../components/eventSummaryBanner/EventSummaryBanner'
 
 import SendUsMessage from '../components/SendUsMessage/SendUsMessage'
 import Footer from '../components/footer/Footer'
+
+import './eventSingle.css'
 
 function EventsSingle() {
     
@@ -26,6 +29,14 @@ function EventsSingle() {
                          to give you options for a refund. 
                         You can also choose to let it secure your tickets for Spark 2021!</p>
                 </SubTitle>
+
+
+                <article className='bible-portion'>
+                    <p>"This is what I command you: 
+                        that you love and unselfishly seek the 
+                        best for one another." John 15:17 AMP</p>
+                </article>
+
                 <SubTitle  heading={'Speakers '} />
                 <InfoBoard title = {'David and Tamara Simpsons'} showBtn = {false}
             description = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'}>
@@ -36,7 +47,7 @@ function EventsSingle() {
                    It has survived not only five 
                  centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                  </p>  </InfoBoard>
-
+                    <EventSummaryBanner />
                  <SendUsMessage />
             <Footer/>
         </div>

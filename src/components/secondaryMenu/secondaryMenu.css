@@ -25,6 +25,10 @@
     font-weight: 500;
 }
 
+.left-menu ul li a:active{
+    color: #000;
+}
+
 .right-menu ul{
     display: flex;
     justify-content: center;
@@ -42,6 +46,11 @@
     font-size: 0.9rem;
 
 }
+
+.secondary-menu .main-active {
+    color: var( --clr-black);
+    /* font-weight: 600; */
+  }
 
 
 @media screen and (max-width: 800px) {

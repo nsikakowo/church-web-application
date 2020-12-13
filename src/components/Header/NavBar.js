@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { links } from './data';
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import logo from './logo.png';
 import {  FaSearch } from 'react-icons/fa';
 import {  GiShoppingCart } from 'react-icons/gi'
@@ -42,8 +42,8 @@ const Navbar = () => {
             {links.map((link) => {
               const { id, url, text } = link;
               return (
-                <Link to={url} key={id}>{text}
-                </Link>
+                <NavLink to={url} key={id} activeClassName='main-active' >{text}
+                </NavLink>
               );
             })}
           </ul>

@@ -1,6 +1,6 @@
 .intro-container{
     /* height: 700px; */
-    padding: 50px 5rem;
+    padding: 50px 5rem  80px;
     margin-bottom: 3rem;
 }
 
@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--clr-primary-4);
-    padding: 50px 2rem;
+    padding: 50px 2rem 80px;
 }
 
 .intro .content{
@@ -19,30 +19,30 @@
 
 .intro .content h2{
     font-size: 2rem;
-    color: var(--clr-primary-3);
+    color: var(--clr-black);
     
 }
 
 .intro .content p{
-    color: var(--clr-primary-3);
+    color: var(--clr-black);
     font-size: 16px;
 }
 
 .intro .image h5 {
     margin: 5px 0 5px;
-    color: var(--clr-primary-3);
+    color: var(--clr-black);
     font-weight: 500;
     font-size: 20px;
 }
 
 .intro .image p{
-    color: var(--clr-primary-3) ;
+    color: var(--clr-black) ;
     font-weight: 400;
     font-size: 16px;
 }
 
 .intro .image .intro-pix{
-    height: 570px;
+    height: 470px;
     width: 460px;
 }
 

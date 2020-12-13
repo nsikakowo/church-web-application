@@ -70,6 +70,10 @@ function NextEvent() {
         </div>
           
       </section>
+
+      <div className="service-reg">
+        <button>Service Registration</button>
+      </div>
       </section>
     
   );
