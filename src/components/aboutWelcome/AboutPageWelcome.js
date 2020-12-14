@@ -1,12 +1,14 @@
 import React from 'react'
 import './aboutWelcome.css'
-import welcome from './welcome.jpg'
 
-function AboutPageWelcome() {
+function AboutPageWelcome(props) {
+
+const {image} = props;
+
     return (
         <div className='welcome-container'>
             <div className="welcome-image">
-                <img src={welcome} alt="welcome"/>
+                <img src={image} alt="welcome"/>
             </div>
             <div className="welcome-content">
                 <h2>Welcome!</h2>

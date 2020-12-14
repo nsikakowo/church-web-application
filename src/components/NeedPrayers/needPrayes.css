@@ -36,18 +36,20 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top;
 }
 
 
 .prayers .write-up h3{
     font-style: italic;
     line-height: 1.4;
+    font-weight: 500;
    
 }
 
 .prayers .write-up p{
-    font-style: italic;
-    line-height: 1.4;
+    /* font-style: italic; */
+    line-height: 30px;
     width: 75%;
     
 }
@@ -57,31 +59,35 @@
         flex-direction: column;
     }
 
-    .prayers .photo{
-        width: 630px;
-        height: 500px;
-        background-color: var(--clr-primary-2);
-    }
     
     .prayers .photo{
-    width: 430px;
-    height: 400px;
-    margin-bottom: 2rem;
+    width: 100%;
+    /* height: 400px; */
+    margin-bottom: 0rem;
 }
 
 .prayers .photo img{
     width: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
 .needPrayers{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px 1.9rem;
+    margin: 30px 1rem;
     
 }
+
+.prayers .write-up {
+    padding-left: 1rem;
+    flex: 1;
+    width: 100%;
+}
 .prayers .write-up .content{
-    padding-left: 2rem;
+    padding-left: 1rem;
+    margin: 1rem;
 }
 
 .content button {

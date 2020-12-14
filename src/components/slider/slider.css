@@ -66,6 +66,7 @@
 @media screen and (max-width:800px) {
     #slider .slide{
         text-align: center;
+        height: 75%;
     }
 
     .slide h1{
@@ -82,5 +83,6 @@
 
     #slider .event-countdown{
         padding: 0 10px;
+        height: 25%;
     }
 }

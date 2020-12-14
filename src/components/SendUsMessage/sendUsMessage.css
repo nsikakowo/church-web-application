@@ -66,5 +66,11 @@
         align-items: center;
         padding: 3rem 1rem;
     }
+
+    .google-map{
+        min-height: 300px;
+        margin: 2rem 0rem;
+        
+    }
 }
 

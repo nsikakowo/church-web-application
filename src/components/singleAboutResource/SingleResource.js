@@ -1,11 +1,14 @@
 import React from 'react'
 import './singleResource.css'
 
-function SingleResource() {
+function SingleResource(props) {
+
+const {image, text, heading, btn1, btn2} = props;
+
     return (
         <section className= 'resource-container'>
             <div className="resource-banner">
-                <img src="" alt=""/>
+                <img src={image} alt={heading}/>
             </div>
             <div className="resource-content">
                 <h2>Learn More</h2>

@@ -18,7 +18,7 @@ function Beliefs(props) {
             <div className="beliefPhoto">
                 <img src={beliefPhoto} alt={beliefTitle}/>
             </div>
-            <div className="beliefContent">
+            <div className="beliefContent" id= 'beliefLeft'>
                 <h3>{beliefTitle}</h3>
                 <p>{beliefText}</p>
                <p> {beliefPortion} </p>

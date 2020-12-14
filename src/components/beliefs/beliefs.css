@@ -1,16 +1,16 @@
 .beliefContainer{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     padding: 5rem 5rem;
     color: var(--clr-primary-3);
     /* padding-top: 5rem; */
-    border-top: 1px solid var(--clr-primary-4);
+    border-top: 1px solid var(--clr-primary-8);
 }
 
 .beliefContainer .beliefPhoto {
-    width: 390px;
-    height: 262px;
+    width: 388px;
+    height: 362px;
     border-radius: 6px;
     background-color: var(--clr-primary-2);
     overflow: hidden;
@@ -24,12 +24,17 @@
 }
 
 .beliefContainer .beliefContent{
-    padding: 0 2rem 2rem;
+    padding: 0 0rem 2rem;
     flex: 1.8;
+}
+
+#beliefLeft{
+    padding-left: 2rem;
 }
 
 .beliefContainer .beliefContent p{
     width: 95%;
+    line-height: 30px;
 }
 
 @media screen and (max-width:800px) {
