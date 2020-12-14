@@ -1,6 +1,6 @@
 import React from 'react'
 import './messageSinglePlayer.css';
-import Video from './accordion.mp4'
+// import poster from './poster.png'
 
 function MessageSinglePlayer() {
     return (
@@ -11,7 +11,10 @@ function MessageSinglePlayer() {
                 <button className='btn-primary'>Get Involved</button>
             </div>
             <div className="video">
-            <iframe width="720" height="200" src="https://www.youtube.com/embed/UjpYUa4s-e0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe width="720" 
+            height="200" 
+            src="https://www.youtube.com/embed/UjpYUa4s-e0" 
+            frameBorder="0" allow="accelerometer; picture-in-picture" title= 'message'  allowFullScreen></iframe>
             </div>
         </article>
     )

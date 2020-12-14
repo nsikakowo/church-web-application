@@ -7,6 +7,8 @@ import StoreBanner from '../components/storeBanner/StoreBanner'
 import SalesList from '../components/salesList/SalesList'
 import Footer from '../components/footer/Footer'
 import bookshelf from '../components/storeBanner/bookshelf.jpg'
+import series from '../components/storeBanner/series.jpg'
+import give from '../components/storeBanner/give.jpg'
 
 function Store() {
     return (
@@ -22,10 +24,10 @@ function Store() {
            <StoreBanner  title = {'Books'} btn = {'view all books'}  image = {bookshelf}
            description = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has  been the industry\'s standard dummy text ever since the 1500s, when an unknown printer.'}/>
             <SalesList />
-            <StoreBanner  title = {'Series'} btn = {'view all series'}  image = {bookshelf}
+            <StoreBanner  title = {'Series'} btn = {'view all series'}  image = {series}
            description = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has  been the industry\'s standard dummy text ever since the 1500s, when an unknown printer.'}/>
             <SalesList />
-            <StoreBanner  title = {'Give'} btn = {'view all gifts'}  image = {bookshelf}
+            <StoreBanner  title = {'Give'} btn = {'view all gifts'}  image = {give}
            description = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has  been the industry\'s standard dummy text ever since the 1500s, when an unknown printer.'}/>
             <SalesList />
             <Footer/>

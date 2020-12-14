@@ -40,6 +40,12 @@
 
 .single-service-container article h3{
     font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.single-service-container article h2 {
+    font-weight: 500;
+    font-size: 1.7rem;
 }
 
 .single-service-container .service-details{
@@ -59,8 +65,16 @@
     background-color: var(--clr-primary-1);
     border-radius: 3px;
     margin: 0 2rem 0 0;
-
+    overflow: hidden;
 }
+
+.single-service-container .service-details
+.service-details-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 @media screen and (max-width:800px ) {
     .serviceEvent-container{

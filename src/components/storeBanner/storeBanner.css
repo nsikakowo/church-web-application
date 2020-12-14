@@ -3,13 +3,14 @@
     position: relative;
     overflow: hidden;
     /* width: 100%; */
-    height: 250px;
+    height: 400px;
     padding: 3rem 2rem;
     background-color: red;
     display: flex;
     justify-content: center;
     flex-direction: column;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .store-banner .overlay{
@@ -31,7 +32,7 @@
     height: 100%;
     object-fit: cover;
     z-index: 1;
-    backdrop-filter: blur(50px);
+    /* backdrop-filter: blur(50px); */
 }
 
 .store-banner p{

@@ -1,6 +1,6 @@
 .all-messages-container{
     padding: 40px 0rem;
-    /* margin: 2rem 5rem; */
+    margin: 2rem 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,16 +52,17 @@ article p{
 
 
 .message-search {
-    margin:30px 0 30px;
+    margin:30px 5rem 30px;
     width: 100%;
 }
 
 .message-search input {
+    
     background-color: transparent;
-    width: 90%;
+    width: 94%;
     outline: none;
     border: 1px solid var(--clr-primary-1);
-    padding: 11px 0;
+    padding: 10px 0;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
     border-left-color: transparent;
@@ -70,7 +71,7 @@ article p{
 .message-search button{
     padding: 10px;
     outline: none;
-    width: 7%;
+    width: 3%;
     margin-left: 1rem;
     border: 1px solid var(--clr-primary-1);
     color: var(--clr-primary-3);

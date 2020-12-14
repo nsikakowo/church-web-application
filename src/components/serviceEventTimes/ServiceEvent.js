@@ -1,4 +1,5 @@
 import React from 'react'
+import pastor from './pastor.jpg'
 import './serviceEvent.css'
 
 function ServiceEvent() {
@@ -24,10 +25,11 @@ function ServiceEvent() {
             </div>
             <div className="single-service-container">
                 <article className='singleEventDays'>
+                <h2>Coming Up in Our Church</h2>
                     <h3>Wednesday, July 22nd</h3>
                     <div className="service-details">
                         <div className="service-details-image">
-                            <img src="" alt=""/>
+                            <img src={pastor} alt="pastor"/>
                         </div>
                         <div className="service-details-writeup">
                             <h4>Pastor Davids Simpsons</h4>
@@ -40,7 +42,7 @@ function ServiceEvent() {
                     <h3>Wednesday, July 22nd</h3>
                     <div className="service-details">
                         <div className="service-details-image">
-                            <img src="" alt=""/>
+                            <img src={pastor} alt="pastor"/>
                         </div>
                         <div className="service-details-writeup">
                             <h4>Pastor Davids Simpsons</h4>
@@ -53,7 +55,7 @@ function ServiceEvent() {
                     <h3>Wednesday, July 22nd</h3>
                     <div className="service-details">
                         <div className="service-details-image">
-                            <img src="" alt=""/>
+                            <img src={pastor} alt="pastor"/>
                         </div>
                         <div className="service-details-writeup">
                             <h4>Pastor Davids Simpsons</h4>
@@ -66,7 +68,7 @@ function ServiceEvent() {
                     <h3>Wednesday, July 22nd</h3>
                     <div className="service-details">
                         <div className="service-details-image">
-                            <img src="" alt=""/>
+                            <img src={pastor} alt="pastor"/>
                         </div>
                         <div className="service-details-writeup">
                             <h4>Pastor Davids Simpsons</h4>

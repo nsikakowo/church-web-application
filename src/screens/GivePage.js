@@ -6,6 +6,9 @@ import Donation from '../components/Donation/Donation'
 import './givePage.css'
 import Footer from '../components/footer/Footer'
 
+//picture imports
+import giving from './giving-images/giving.jpg'
+
 function GivePage() {
     return (
         <div>
@@ -16,7 +19,7 @@ function GivePage() {
             <Donation />
             <div className="giving-details">
                 <div className="giving-image">
-                    <img src="" alt=""/>
+                    <img src={giving} alt="giving"/>
                 </div>
                 <div className="giving-content">
                     <h2>Giving is a lifestyle</h2>
@@ -31,7 +34,7 @@ function GivePage() {
                     <p>Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. Ratione nesciunt architecto 
                         optio explicabo ducimus impedit asperiores.
-                         In voluptatem natus molestias quidem distinctio nulla?
+                         In volupttem natus molestias quidem distinctio nulla?
                           Voluptatum, doloribus nemo. Fugit, architecto alias
                            laboriosam maiores cumque neque cum hic soluta 
                            consectetur delectus tempora ad ratione dolorum
