@@ -10,15 +10,15 @@
 
 .subtitle h2{
     font-size: 2rem;
-    font-weight: 50;
+    font-weight: 500;
 }
 .subtitle h4{
     font-size: 1rem;
     font-weight: 400;
 }
 .subtitle p{
-    font-size: 1rem;
+    font-size: 18px;
     font-weight: 400;
-    width: 70%;
+    width: 90%;
     color: var(--clr-primary-3);
 }

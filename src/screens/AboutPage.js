@@ -29,8 +29,8 @@ function AboutPage() {
         <div>
             <NavBar/>
             <SecondaryMenu/>
-            <Slider heading= { 'About Us' } 
-             tagline= {'Get to know about our Church and our Belifes'}/>
+            <Slider title= { 'About Us' } 
+             sub_title= {'Get to know about our Church and our Belifes'}/>
             <AboutPageWelcome  image = {women}/>
             <SubTitle 
              heading={'What We Believe'}

@@ -48,7 +48,7 @@
 
 #sendMessage #message-btn{
     grid-column-start: 1;
-    width: 180px;
+    width: 200px;
 }
 
 .google-map{

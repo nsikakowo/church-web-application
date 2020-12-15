@@ -2,8 +2,8 @@ import React from 'react';
 import message from '../MessageSinglePlayer/accordion.mp4';
 import './videoMessages.css';
 
-function VideoMessages() {
-    // const {title } = props;
+function VideoMessages(props) {
+    const {btn } = props;
     return (
         <section className='video-messages-container'>
             <h2>RECENT MESSAGES</h2>
@@ -49,6 +49,7 @@ function VideoMessages() {
                          Esse, sed? Sint ducimus enim est!</p>
                 </article>
             </div>
+                <button className='btn-primary'>View more podcast</button>
         </section>
     )
 }

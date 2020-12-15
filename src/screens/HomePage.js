@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../components/Header/NavBar'
 import SecondaryMenu from '../components/secondaryMenu/SecondayMenu'
-import Slider from '../components/slider/Slider'
+import HomeSlider from '../Apis/homeSlider/Homeslider'
 import FeaturedBox from '../components/featuredBox/FeaturedBox'
 import PastorIntro from '../components/pastorIntro/PastorIntro'
 import OurMission from '../components/ourMission/OurMission'
@@ -19,7 +19,7 @@ function HomePage() {
         <div>
              <NavBar/>
             <SecondaryMenu/>
-            <Slider />
+            <HomeSlider />
             <FeaturedBox />
             <PastorIntro />
             <OurMission/>
