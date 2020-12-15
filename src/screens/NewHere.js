@@ -10,12 +10,15 @@ import NewMemberForm from '../components/newMemberForm/NewMemberForm'
 import MessageSinglePlayer from '../components/MessageSinglePlayer/MessageSinglePlayer'
 import Footer from '../components/footer/Footer'
 
+import banner from './all-images/welcome.jpg'
+
 function NewHere() {
     return (
         <div>
              <NavBar/>
             <SecondaryMenu/>
-            <SingleSlider heading ={'welcome to church'} tagline = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '} />
+            <SingleSlider heading ={'welcome to church'} image = {banner}
+            tagline = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '} />
             <SubTitle 
              
              subheading= {'We are very delighted that you are here. Our Team would love to serve you and help you get connected'}

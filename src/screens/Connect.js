@@ -13,6 +13,7 @@ import photo from './connect-images/team.jpg'
 import cell from './connect-images/cell.jpg'
 import give from './connect-images/give.jpg'
 import missions from './connect-images/missions.jpg'
+import banner from './all-images/contact.jpg'
 
 
 function Connect() {
@@ -20,8 +21,8 @@ function Connect() {
         <div>
             <NavBar/>
             <SecondaryMenu/>
-            <Slider heading= { 'Connect' } 
-             tagline= {'The best way to be connected here is through service.'}/>
+            <Slider title= { 'Connect' } image = {banner}
+             sub_title = {'The best way to be connected here is through service.'}/>
             <SubTitle 
              heading={'HOW TO GET CONNECTED'}
              subheading= {'One of the best ways you can get connected and build a strong relationship at our Church is by joining'}

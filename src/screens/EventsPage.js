@@ -13,8 +13,8 @@ function EventsPage() {
         <div>
 <NavBar/>
             <SecondaryMenu/>
-            <Slider heading= { 'Attend Our Events' } 
-             tagline= {'We have a veriaty of weekly events to support you.'}/>
+            <Slider title= { 'Attend Our Events' } 
+             sub_title= {'We have a veriaty of weekly events to support you.'}/>
             <SubTitle 
              heading={'Scheduled Event'}
              subheading= {'Here are some of our upcoming events. Use the filter below to help find the event you are interested in.'}

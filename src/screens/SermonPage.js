@@ -8,13 +8,15 @@ import CallToAction from '../components/callToAction/CallToAction'
 import SendUsMessage from '../components/SendUsMessage/SendUsMessage'
 import Footer from '../components/footer/Footer'
 
+import banner from './all-images/pastor.jpg'
+
 function SermonPage() {
     return (
         <div>
             <NavBar/>
             <SecondaryMenu/>
-            <Slider heading= { 'Watch online' } 
-             tagline= {'Join Our Live Service and a partaker of the Blessing'}/>
+            <Slider title= { 'Watch online' }  image ={banner}
+             sub_title= {'Join Our Live Service and a partaker of the Blessing'}/>
             <VideoMessages />
             <AllRecordedMessages />
             <CallToAction />

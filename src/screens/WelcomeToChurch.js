@@ -10,13 +10,14 @@ import CallToAction from '../components/callToAction/CallToAction'
 
 import Footer from '../components/footer/Footer'
 import bg from '../components/callToAction/bg.jpg'
+import banner from './all-images/choir.jpg'
 
 function WelcomeToChurch() {
     return (
         <div>
              <NavBar/>
             <SecondaryMenu/>
-            <SingleSlider heading ={'New Life In Christ'}  />
+            <SingleSlider heading ={'New Life In Christ'} image = {banner} />
             <SubTitle 
              heading={'Expect Great Things'}
              subheading= {'Our heart is to help you reach your full God given potential. If you\'re ever in the our area, come visit us. As Pastor Davids says, we\'ll make sure you feel right at home.'}

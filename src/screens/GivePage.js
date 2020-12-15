@@ -8,13 +8,14 @@ import Footer from '../components/footer/Footer'
 
 //picture imports
 import giving from './giving-images/giving.jpg'
+import banner from './all-images/give1.jpg'
 
 function GivePage() {
     return (
         <div>
              <NavBar/>
             <SecondaryMenu/>
-            <SingleSlider heading ={'Give'}
+            <SingleSlider heading ={'Give'}  image = {banner}
              tagline = {'Giving is a biblical principle that when lived by, produces a rich harvest in our lives'} />
             <Donation />
             <div className="giving-details">

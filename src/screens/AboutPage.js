@@ -13,6 +13,7 @@ import SendUsMessage from '../components/SendUsMessage/SendUsMessage'
 import Footer from '../components/footer/Footer'
 
 // image imports
+import banner from './about-images/banner.jpg'
 import bible from './about-images/bible.jpg'
 import cross1 from './about-images/cross1.jpg'
 import cross2 from './about-images/cross2.jpg'
@@ -29,7 +30,7 @@ function AboutPage() {
         <div>
             <NavBar/>
             <SecondaryMenu/>
-            <Slider title= { 'About Us' } 
+            <Slider title= { 'About Us' } image = {banner}
              sub_title= {'Get to know about our Church and our Belifes'}/>
             <AboutPageWelcome  image = {women}/>
             <SubTitle 

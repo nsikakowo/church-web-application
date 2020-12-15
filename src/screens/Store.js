@@ -10,12 +10,15 @@ import bookshelf from '../components/storeBanner/bookshelf.jpg'
 import series from '../components/storeBanner/series.jpg'
 import give from '../components/storeBanner/give.jpg'
 
+import banner from './all-images/banner.jpg'
+
 function Store() {
     return (
         <div>
              <NavBar/>
             <SecondaryMenu/>
-            <SingleSlider heading ={'Our store'} tagline = {'We offer a wide range of resources and gifts to help you.'} />
+            <SingleSlider heading ={'Our store'} image ={banner}
+            tagline = {'We offer a wide range of resources and gifts to help you.'} />
             <SubTitle 
              heading={'Featured Products'}
              subheading= {'Here is some of our newest and most popular resources. Check back regularly for new release'}

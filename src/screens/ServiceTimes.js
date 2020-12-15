@@ -11,13 +11,15 @@ import CallToAction from '../components/callToAction/CallToAction'
 import SendUsMessage from '../components/SendUsMessage/SendUsMessage'
 import Footer from '../components/footer/Footer'
 
+import banner from './all-images/servicetime.jpg'
+
 function ServiceTimes() {
     return (
         <div>
              <NavBar/>
             <SecondaryMenu/>
-            <Slider heading= { 'Service Times' } 
-             tagline= {'Take note of our service times and join our services, online & onsite'}/>
+            <Slider title= { 'Service Times' }  image = {banner}
+             sub_title= {'Take note of our service times and join our services, online & onsite'}/>
             <SubTitle 
              heading={'Our Services'}
              subheading= {'Below you would find our services schedule and our upcoming lineup of speakers. Each service is 90 minutes long and it is packed with uplifting music, powerful worship and inspiring messages.'}
