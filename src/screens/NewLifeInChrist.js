@@ -18,7 +18,7 @@ function NewLifeInChrist() {
         <div>
              <NavBar/>
             <SecondaryMenu/>
-            <SingleSlider heading ={'NEW LIFE IN CHRIST'}  image ={banner} />
+            <SingleSlider heading ={'NEW LIFE IN CHRIST.'}  image ={banner} />
             <BannerPlayer />
             <SubTitle 
              subheading= {'We are so excited for you as you step into your New Beginning! This is the best decision of your life! We suggest the following next steps to help you grow in your relationship with Christ.'}
