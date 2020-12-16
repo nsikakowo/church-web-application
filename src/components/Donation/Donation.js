@@ -1,5 +1,6 @@
 import React from 'react'
 import './donation.css'
+// import './donate.scss'
 
 function Donation() {
     return (
@@ -14,13 +15,19 @@ function Donation() {
             <div className="donation-form">
                 <form>
                     <select name="donation-type" id="donation-type">
-                        <option value="default">Donation Type...</option>
-                        <option value="one-time">One Time</option>
-                        <option value="recurring">Recurring</option>
+                        <option className='select-items'  value="default">Donation Type</option>
+                        <option className='select-items' value="one-time">One Time</option>
+                        <option className='select-items' value="recurring">Recurring</option>
                     </select>
                     <label htmlFor="amount">Amount<br/>
                         <input type="number" name="amount" id="amount" placeholder='$0'/>
                     </label>
+                    <div id='interval'>
+                    <input id="toggle-on" class="toggle toggle-left" name="toggle" value="false" type="radio" checked />
+                        <label for="toggle-on" class="btn">Monthly</label>
+                        <input id="toggle-off" class="toggle toggle-right" name="toggle" value="true" type="radio"/>
+                        <label for="toggle-off" class="btn">Annually</label>
+                        </div>
                     <button className='btn-primary'>make payment</button>
                 </form>
             </div>

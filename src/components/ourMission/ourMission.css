@@ -5,15 +5,15 @@
 }
 
 .mission-container h2 {
-    font-size: 1.7rem;
-   color: var(--clr-primary-2);
+    font-size: 2rem;
+   color: var(--clr-black);
 }
 
 .missions{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 4rem;
+    margin: 20px 4rem 20px;
     /* padding: 30px 4rem; */
     text-align: center;
 }
@@ -39,9 +39,10 @@
 }
 
 .mission h3{
-   font-size: 1.4rem;
+   font-size: 1.5rem;
    color: var(--clr-black);
    font-style: italic;
+   font-weight: 500;
 }
 
 .mission p{
@@ -81,4 +82,24 @@
         height: 100%;
         object-fit: cover;
     }
+}
+
+@media screen and (min-width:1367px) {
+   
+    .mission{
+    width: 33%;
+    margin:0 1rem;
+}
+
+.mission .feature-photo{
+    height: 363px;
+    width: 100%;
+}
+    
+
+    .mission p{
+        width: 100%;
+        padding: 5px 10px 5px;
+    }
+
 }

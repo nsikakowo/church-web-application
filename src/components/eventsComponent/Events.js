@@ -7,7 +7,7 @@ function Events() {
         <>
         <div className='event'>
             <div className="event-banner">
-                <img src='' alt="banner"/>
+                <img src='https://purposechurch.com/wp-content/uploads/2020/02/ismael-paramo-I-YAoNw2nds-unsplash-scaled.jpg' alt="banner"/>
                 <div className="event-content">
                     <h3 className='event-title'>
                      Recharge Conference 2020
@@ -34,10 +34,10 @@ function Events() {
         </div>
         <div className='event'>
             <div className="event-banner">
-                <img src='' alt="banner"/>
+                <img src='https://i2.wp.com/www.mrspandp.com/wp-content/uploads/2019/08/growing-old-together-long-term-love-lasting-marriage-Sugata-Setia-But-Natural-Photography-6.jpg' alt="banner"/>
                 <div className="event-content">
                     <h3 className='event-title'>
-                     Recharge Conference 2020
+                     Couple's Conference 2020
                     </h3>
                     <div className="event-subtitle">
                         <h4 className='subtitle'>Towards a winning half</h4>
@@ -46,7 +46,7 @@ function Events() {
                 </div>
             </div>
             <div className="event-details">
-                <h3 className='event-heading'>Recharge Conference 2020 : Towards a winning half</h3>
+                <h3 className='event-heading'>Couple's Conference 2020 : Towards a winning half</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and
                      typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an

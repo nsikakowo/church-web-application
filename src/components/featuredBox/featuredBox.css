@@ -39,11 +39,12 @@
     top: 0;
     left: 0;
     z-index: 1;
+   
 }
 
 .featuredBox article .box-image img {
     width: 100%;
-    min-height: 301px;
+    min-height: 340px;
     object-fit: cover;
     z-index: 2;
 }
@@ -80,5 +81,14 @@
     .featuredBox article{
         margin-bottom: 30px;
 
+    }
+}
+
+@media screen and (min-width:1367px) {
+   
+    .featuredBox article{
+        width: 33%;
+        height: 340px;
+        padding: 70px 3%;
     }
 }

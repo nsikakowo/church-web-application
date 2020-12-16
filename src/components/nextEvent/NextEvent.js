@@ -10,7 +10,7 @@ function NextEvent() {
   let  interval = useRef();
 
   const startTimer = () => {
-    const countDownDate = new Date('December 25, 2020 00:00:00').getTime();
+    const countDownDate = new Date('December 31, 2020 00:00:00').getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -43,6 +43,7 @@ function NextEvent() {
   
   return (
     <section className='timer-container'>
+      <div className='time-block'>
         <div className="title">
             <h3>Next Upcoming Event</h3>
             <p>Sunday Service</p>
@@ -70,7 +71,7 @@ function NextEvent() {
         </div>
           
       </section>
-
+      </div>
       <div className="service-reg">
         <button>Service Registration</button>
       </div>

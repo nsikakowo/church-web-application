@@ -8,12 +8,14 @@ import Events from '../components/eventsComponent/Events'
 import CallToAction from '../components/callToAction/CallToAction'
 import Footer from '../components/footer/Footer'
 
+import banner from './all-images/event.jpg'
+
 function EventsPage() {
     return (
         <div>
 <NavBar/>
             <SecondaryMenu/>
-            <Slider title= { 'Attend Our Events' } 
+            <Slider title= { 'Attend Our Events' } image = { banner}
              sub_title= {'We have a veriaty of weekly events to support you.'}/>
             <SubTitle 
              heading={'Scheduled Event'}

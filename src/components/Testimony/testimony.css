@@ -42,11 +42,18 @@
 }
 
 .content-area .small-testifier .box {
-    width: 100px;
-    height: 100px;
+    width: 25%;
+    height: 120px;
     border: 1px solid var(--clr-primary-1);
     border-radius: 3px;
     cursor: pointer;
+    transition: 1s;
+    margin-right: 1rem;
+}
+
+.content-area .small-testifier .box:hover{
+    transform: scale(1.2);
+    
 }
 
 .content-area .small-testifier .box img{
@@ -85,7 +92,10 @@
         border: 1px solid var(--clr-primary-1);
         border-radius: 3px;
         margin: 2px;
+        
     }
+
+    
 
     .content-area .big-testifier  img{
         width: 80%;
@@ -97,6 +107,14 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+}
+
+@media screen and (min-width:1367px){
+    .content-area .small-testifier .box{
+        width: 25%;
+        height: 150px;
+        margin-right: 1rem;
     }
 }
 

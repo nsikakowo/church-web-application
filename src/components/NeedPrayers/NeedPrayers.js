@@ -5,7 +5,7 @@ import './needPrayes.css'
 
 function NeedPrayers(props) {
 
-    const {title, title2, text2, photo2, btn2, text, photo, btn1} = props;
+    const {title, title2, tag, tag2, text2, photo2, btn2, text, photo, btn1} = props;
 
     return (
         <div className='needPrayers'>
@@ -16,6 +16,7 @@ function NeedPrayers(props) {
                 <div className="write-up">
                 <div className="content">
                   <h3> {title}</h3>
+                  <h3> {tag}</h3>
                   <p> {text} </p>
                        <button className='btn-outline'> {btn1} </button>
                        </div>
@@ -26,6 +27,7 @@ function NeedPrayers(props) {
                 <div className="write-up">
                 <div className="content">
                   <h3> {title2} </h3>
+                  <h3> {tag2} </h3>
                   <p> {text2} </p>
                        <button className='btn-outline'> {btn2} </button>
                        </div>
