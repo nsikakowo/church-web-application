@@ -31,7 +31,7 @@ function AboutPage() {
             <NavBar/>
             <SecondaryMenu/>
             <Slider title= { 'About Us' } image = {banner}
-             sub_title= {'Get to know about our Church and our Belifes'}/>
+             sub_title= {'Get to know about our Church and our Beliefs'}/>
             <AboutPageWelcome  image = {women}/>
             <SubTitle 
              heading={'What We Believe'}

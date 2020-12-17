@@ -1,0 +1,106 @@
+.new-member-resource-container{
+    margin: 2rem 5rem;
+    position: relative;
+}
+
+.new-member-resource-container article{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding: 3rem 0;
+    border-top: 1px solid var(--clr-primary-1);
+}
+
+.new-member-resource-container article
+.larger-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.new-member-resource-container article
+.resource-image-box{
+    position: relative;
+    width: 280px;
+    height: 164px;
+    border-radius: 5px;
+    margin: 0 2rem;
+    background-color: var(--clr-primary-1);
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.new-member-resource-container article
+.resource-image-box .resource-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.new-member-resource-container article
+.resource-image-box .resource-image .box-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.159);
+    z-index: 5;
+}
+
+.new-member-resource-container article
+.resource-image-box .resource-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 4;
+}
+
+.resource-image-box .left p{
+    z-index: 10;
+    position: relative;
+    color: var(--clr-white);
+    width: 60%;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.resource-image-box .left h5{
+    z-index: 10;
+    position: relative;
+    color: var(--clr-white);
+    margin-bottom: 0.7rem;
+    background-color: blue;
+    padding: 2px 9px ;
+    width: 60%;
+    font-weight: 500;
+    font-size: 10px;
+
+}
+
+.resource-image-box .right p{
+    z-index: 10;
+    position: relative;
+    color: var(--clr-white);
+    background-color: #000;
+}
+
+.new-member-resource-container .resource-details h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+.new-member-resource-container .resource-details .venue{
+    font-size: 12px;
+    font-weight: 400;
+}
+.new-member-resource-container .resource-details .speaker{
+    font-size: 14px;
+    font-weight: 400;
+}

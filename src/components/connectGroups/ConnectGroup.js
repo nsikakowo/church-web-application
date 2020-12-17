@@ -2,7 +2,7 @@ import React from 'react'
 import './connectGroup.css'
 
 function ConnectGroup(props) {
-    const {groupPhoto, groupTitle, groupText, groupBtn} = props
+    const {groupPhoto, groupTitle, groupText, groupBtn, showConnectBtn = true, } = props
     return (
         <div  className='groupContainer'>
             <div className="groupPhoto">
@@ -11,7 +11,8 @@ function ConnectGroup(props) {
             <div className="groupContent">
                 <h3>{groupTitle}</h3>
                 <p>{groupText}</p>
-                <button className = 'btn-primary'>{groupBtn}</button>
+                {showConnectBtn && <button className="btn-primary">{groupBtn}</button>}
+               
             </div>
         </div>
     )

@@ -8,12 +8,18 @@ import MessageSinglePlayer from '../components/MessageSinglePlayer/MessageSingle
 import Beliefs  from '../components/beliefs/Beliefs'
 import Footer from '../components/footer/Footer'
 
+import banner from './all-images/homecell.jpg'
+import find from './all-images/find.jpg'
+import questions from './all-images/questions.jpg'
+
+
 function HomeCellGroup() {
     return (
         <div >
              <NavBar/>
             <SecondaryMenu/>
-            <SingleSlider heading ={'HOME CELL GROUP'} tagline = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry.  '} />
+            <SingleSlider heading ={'HOME CELL GROUP'} image ={banner}
+            tagline = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry.  '} />
             <SubTitle 
              
              subheading= {'Home cell is a vital part Jubilee Christian Church Int’l. This is because it is the best way you can connect to others with the passion in the church.\
@@ -28,6 +34,8 @@ function HomeCellGroup() {
             <HomeCellForm />
             <MessageSinglePlayer />
             <Beliefs 
+            beliefPhoto ={find}
+            beliefPhotoRight ={questions}
              beliefTitle ={'We Are Easy To Find'}
              beliefText = {'Kidslife is a place where Kids experience that God is Great.  Lorem Ipsum is simply dummy text of the printing and typesetting industry. '}
             beliefBtn = {'click for directions'}

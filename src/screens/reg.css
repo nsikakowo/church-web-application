@@ -1,0 +1,64 @@
+.reg-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto 5rem;
+}
+
+.reg-container .service-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+}
+
+.reg-container .service-form input{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid var(--clr-primary-1);
+    color: var(--clr-primary-1);
+    outline: none;
+}
+
+.reg-container .service-form select{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid var(--clr-primary-1);
+}
+
+.reg-container .service-form input:focus,
+.reg-container .service-form select:focus{
+    box-shadow: var(--light-shadow);
+}
+
+.reg-container .service-form label {
+    margin: 1rem 0 5px;
+}
+
+.service-form #disclaimer{
+    margin: 2rem 0 2rem;
+    font-weight: 600;
+}
+
+.service-form #times{
+    padding: 1rem;
+}
+
+.service-form #times option{
+    padding: 1rem;
+} 
+
+.service-form .agree{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+
+}
+
+.service-form #agreement {
+    width: 50px;
+    margin-right: 1rem;
+}

@@ -1,0 +1,36 @@
+.google-map-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    margin: 3rem 5rem;
+    text-align: center;
+}
+
+.google-map-box h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.map-container{
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    background-color: var(--clr-primary-1);
+    margin: 1rem 0 2rem;
+}
+
+.group-title{
+    margin: 2rem 5rem;
+    border-bottom: 1px solid var(--clr-primary-1);
+}
+
+.group-title h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.group-title p{
+    width: 50%;
+}

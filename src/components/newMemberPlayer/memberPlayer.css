@@ -1,0 +1,110 @@
+.player-container{
+    margin: 3rem 5rem;
+    border-radius: 5px;
+    width: 90%;
+    height: 555px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.player-image-box{
+    position: relative;
+    width: 100%;
+    height: 555px;
+    border-radius: 5px;
+    margin: 0 2rem;
+    background-color: var(--clr-primary-1);
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    
+}
+
+
+.player-image-box .player-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.player-image-box .player-image .player-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    background-color: rgba(0, 0, 0, 0.549);
+    z-index: 5;
+    color: #fff;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.player-overlay .left-arrow,
+.player-overlay .right-arrow{
+    cursor: pointer;
+}
+
+
+
+.player-image-box .player-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 4;
+}
+
+.player-image-box .left{
+    margin: 0rem 4rem 5rem;
+}
+
+.player-image-box .left p{
+    z-index: 10;
+    position: relative;
+    color: var(--clr-white);
+    width: 60%;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.player-image-box .left h5{
+    z-index: 10;
+    position: relative;
+    color: var(--clr-white);
+    margin-bottom: 0.7rem;
+    background-color: #191c52bb;
+    padding: 2px 9px ;
+    width: 60%;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.player-container .play-icon{
+    position: absolute;
+    color: var(--clr-white);
+    font-weight: 400;
+    font-size: 7rem;
+    z-index: 20;
+    border: 3px solid var(--clr-white);
+    padding: 2rem;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+}

@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState} from 'react';
+import { NavLink} from 'react-router-dom'
 import './nextEvent.css';
 
 function NextEvent() {
@@ -73,9 +74,13 @@ function NextEvent() {
       </section>
       </div>
       <div className="service-reg">
+        <NavLink to= './serviceregistration'>
         <button>Service Registration</button>
+        </NavLink>
       </div>
       </section>
+
+
     
   );
 }

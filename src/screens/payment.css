@@ -1,0 +1,135 @@
+.banner{
+    height: 20vh;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.payment-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-form form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin:5rem auto 7rem;
+}
+
+.payment-form form input{
+    margin: 1px auto 1rem;
+    width: 100%;
+    padding: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid var(--clr-primary-1);
+    font-size: 1.4rem;
+    outline: none;
+}
+
+.payment-form form input:focus{
+    box-shadow: var(--light-shadow);
+}
+
+
+.payment-form form div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.payment-form form div input{
+    width: 100%;
+}
+
+/* pop-ups */
+
+.payment-success{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.481);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.payment-success .info-box{
+    width: 400px;
+    height: 400px;
+    background-color: var(--clr-white);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.info-box .tick{
+    border: 3px solid #449f48;
+    color: green;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    font-size: 6rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.info-box p{
+    margin-bottom: 1rem;
+}
+
+.payment-fail{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.481);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-fail .info-box{
+    width: 400px;
+    height: 400px;
+    background-color: var(--clr-white);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.payment-fail .info-box .tick{
+    color: red;
+    border: 3px solid red;
+}
+
+.payment-close{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-weight: 500;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 2px;
+    height: 20px;
+    cursor: pointer;
+}

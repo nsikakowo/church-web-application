@@ -21,6 +21,12 @@ import HomeCellGroup from './screens/HomeCellGroup';
 import Volunteer from './screens/Volunteer';
 import Missions from './screens/Missions';
 import EventsSingle  from './screens/EventsSingle';
+import Payment  from './screens/Payment';
+import ServiceRegistration  from './screens/ServiceRegistration';
+import NewMemberResource  from './screens/NewMemberResource';
+import NewMemberResourceSingle  from './screens/NewMemberResourceSingle';
+import ContactUs  from './screens/ContactUs';
+import GetDirections  from './screens/GetDirections';
 
 import './App.css';
 
@@ -32,16 +38,16 @@ function App() {
           <Route exact path="/">
             <HomePage />
           </Route>
-          <Route path="/aboutPage">
+          <Route path="/aboutpage">
             <AboutPage />
           </Route>
-          <Route path="/serviceTimes">
+          <Route path="/servicetimes">
             <ServiceTimes />
           </Route>
-          <Route path="/eventsPage">
+          <Route path="/eventspage">
             <EventsPage />
           </Route>
-          <Route path="/sermonPage">
+          <Route path="/sermonpage">
             <SermonPage />
           </Route>
           <Route path="/store">
@@ -50,7 +56,7 @@ function App() {
           <Route path="/connect">
             <Connect />
           </Route>
-          <Route path="/welcomeToChurch">
+          <Route path="/welcometochurch">
             <WelcomeToChurch />
           </Route>
           <Route path="/givePage">
@@ -71,7 +77,7 @@ function App() {
           <Route path="/homecellgroup">
             <HomeCellGroup />
           </Route>
-          <Route path="/Volunteer">
+          <Route path="/volunteer">
             <Volunteer />
           </Route>
           <Route path="/missions">
@@ -79,6 +85,24 @@ function App() {
           </Route>
           <Route path="/eventssingle">
             <EventsSingle />
+          </Route>
+          <Route path="/payment">
+            <Payment />
+          </Route>
+          <Route path="/serviceregistration">
+            <ServiceRegistration />
+          </Route>
+          <Route path="/newmemberresource">
+            <NewMemberResource />
+          </Route>
+          <Route path="/newmemberresourcesingle">
+            <NewMemberResourceSingle />
+          </Route>
+          <Route path="/contactus">
+            <ContactUs />
+          </Route>
+          <Route path="/getdirections">
+            <GetDirections />
           </Route>
         </Switch>
      

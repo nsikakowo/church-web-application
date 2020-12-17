@@ -1,0 +1,19 @@
+.member-res-form{
+    margin: 1rem 7rem 5rem;
+}
+
+.member-form{
+    border-top:1px solid var(--clr-primary-1);
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.member-form input {
+    margin-right: 1rem;
+    
+}
+
+.member-form label{
+    margin: 2rem 0;
+}

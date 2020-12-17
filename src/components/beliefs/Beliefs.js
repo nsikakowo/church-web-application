@@ -11,7 +11,7 @@ function Beliefs(props) {
           beliefTitleRight, 
           beliefTextRight,
           beliefBtnRight,
-           beliefPortionRight, showBeliefBtn = true } = props
+           beliefPortionRight, showBeliefBtn = true, showBeliefBtnRight = true  } = props
     return (
         <>
         <div  className='beliefContainer'>
@@ -31,7 +31,7 @@ function Beliefs(props) {
                 <h3>{beliefTitleRight}</h3>
                 <p>{beliefTextRight}</p>
                <p> {beliefPortionRight} </p>
-               {showBeliefBtn && <button className="btn-outline">{beliefBtnRight}</button>}
+               {showBeliefBtnRight && <button className="btn-outline">{beliefBtnRight}</button>}
             </div>
             <div className="beliefPhoto">
                 <img src={beliefPhotoRight} alt={beliefTitleRight}/>
