@@ -55,10 +55,18 @@
     margin-left: 6rem;
     cursor: pointer;
     transition: .8s;
+    animation: glow 2s  ease-in-out infinite alternate-reverse;
+}
+
+@keyframes glow{
+    0% {transform: scale(1);}
+    50% {transform: scale(1.05);}
+    100% {transform: scale(1);}
 }
 
 .service-reg button:hover{
     background-color: #ff2a2a9e;
+    transform: translateY(-9px);
 }
 
 @media screen and (max-width:800px) {

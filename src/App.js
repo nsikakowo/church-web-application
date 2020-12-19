@@ -27,6 +27,12 @@ import NewMemberResource  from './screens/NewMemberResource';
 import NewMemberResourceSingle  from './screens/NewMemberResourceSingle';
 import ContactUs  from './screens/ContactUs';
 import GetDirections  from './screens/GetDirections';
+import Books  from './screens/Books';
+import Series  from './screens/Series';
+import Gifts  from './screens/Gifts';
+import EmptyCart  from './screens/EmptyCart';
+import ViewCart  from './screens/ViewCart';
+import KidsLife  from './screens/KidsLife';
 
 import './App.css';
 
@@ -103,6 +109,24 @@ function App() {
           </Route>
           <Route path="/getdirections">
             <GetDirections />
+          </Route>
+          <Route path="/books">
+            <Books />
+          </Route>
+          <Route path="/series">
+            <Series />
+          </Route>
+          <Route path="/gifts">
+            <Gifts />
+          </Route>
+          <Route path="/emptycart">
+            <EmptyCart />
+          </Route>
+          <Route path="/viewcart">
+            <ViewCart />
+          </Route>
+          <Route path="/kidslife">
+            <KidsLife />
           </Route>
         </Switch>
      

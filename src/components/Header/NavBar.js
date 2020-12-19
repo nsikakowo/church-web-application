@@ -31,8 +31,8 @@ const Navbar = () => {
   return (
     <nav id='primary-nav'>
       <div className='nav-center'>
-        <div className='nav-header'>
-          <img src={logo} className='logo' alt='logo' />
+        <div className='nav-header'><NavLink to ='/'>
+          <img src={logo} className='logo' alt='logo' /></NavLink>
           <button className='nav-toggle' onClick={toggleLinks}>
             <FaBars />
           </button>
@@ -55,7 +55,7 @@ const Navbar = () => {
 
              <FaSearch />
               </li>
-          <li> <GiShoppingCart /></li>
+          <li> <NavLink to = './emptycart' style={{margin:'0'}}> <GiShoppingCart /></NavLink></li>
           <input type="search" 
               name="search" 
               id="search" 

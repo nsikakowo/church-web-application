@@ -1,12 +1,21 @@
 .banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 20vh;
-    background-color: black;
+    background: linear-gradient(to right, #000, rgb(48, 48, 48));
     color: #fff;
     display: flex;
     align-items: center;
-    padding-left: 5rem;
-    font-size: 2rem;
-    font-weight: 500;
+    padding: 5rem 7rem 5rem 5rem;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.banner p{
+    color: var(--clr-white);
+    font-size:24px;
+    font-weight: 600;
 }
 
 .payment-form{

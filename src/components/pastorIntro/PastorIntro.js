@@ -1,4 +1,5 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom'
 import pastorPicture from './simpsons.png';
 import './pastorIntro.css'
 
@@ -14,7 +15,7 @@ function PastorIntro() {
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                             It has survived not only five centuries, but also the leap into electronic typesetting,
                             remaining essentially unchanged.</p>
-                            <button type="submit" className='btn-primary'>More Info</button>
+                            <NavLink to = './aboutpage' ><button type="submit" className='btn-primary'>More Info</button></NavLink>
                 </div>
                 <div className="image">
                     <div className="intro-pix">

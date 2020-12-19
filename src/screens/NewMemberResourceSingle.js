@@ -5,7 +5,7 @@ import MemberPlayer from '../components/newMemberPlayer/MemberPlayer'
 
 import Footer from '../components/footer/Footer'
 import './newmemberresource.css'
-
+import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
 import banner from './all-images/pastor.jpg'
 
 
@@ -14,7 +14,7 @@ function NewMemberResourceSingle() {
         <div >
              <NavBar/>
             <SecondaryMenu/>
-            <MemberPlayer image = {banner} />
+            <MemberPlayer image = {banner} h5 = {'Session One'} p= {'A New Beginning'} icon = {<RiArrowLeftSLine/>} icon2= {<RiArrowRightSLine/>}/>
             <div className="member-res-form">
                 <h2>Assessment</h2>
                 <p>Please take this assessment 

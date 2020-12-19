@@ -1,4 +1,5 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom'
 import './aboutWelcome.css'
 
 function AboutPageWelcome(props) {
@@ -23,7 +24,7 @@ const {image} = props;
                       <h5>Gathering Times</h5>
                       <p id='date'>Saturday: 5:30pm</p>
                       <p>Sunday: 7:00am, 9:00am & 11:00am</p>
-                      <button className='btn-primary'>FIND US</button>
+                      <NavLink to = './getdirections'><button className='btn-primary'>FIND US</button></NavLink>
             </div>
         </div>
     )

@@ -1,11 +1,11 @@
 import React from 'react'
-import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
+
 import { FiPlay } from "react-icons/fi";
 import './memberPlayer.css'
 
 function MemberPlayer(props) {
 
-    const {image} = props;
+    const {image, showOverlay =true, h5, p, icon, icon2} = props;
     return (
         <div className='player-container'>
                         <div className="play-icon">
@@ -13,18 +13,18 @@ function MemberPlayer(props) {
                         </div>
             <div className="player-image-box">
                     <div className="player-image">
-                        <div className="player-overlay"> 
-                            <div className="left-arrow"> <RiArrowLeftSLine/>  </div>
-                            <div className="right-arrow"> <RiArrowRightSLine/> </div>
-                         </div>
+                    {showOverlay && <div className="player-overlay"> 
+                            <div className="left-arrow"> {icon}  </div>
+                            <div className="right-arrow"> {icon2} </div>
+                         </div>}
                             <img src={image} alt="player"/>
                        
                     </div>
 
-                    <div className="left">
-                        <h5>Session One </h5>
-                        <p> A New Beginning </p>
-                    </div>
+                    {showOverlay && <div className="left">
+                        <h5>{h5} </h5>
+                        <p> {p} </p>
+                    </div>}
                     
                 </div>
         </div>

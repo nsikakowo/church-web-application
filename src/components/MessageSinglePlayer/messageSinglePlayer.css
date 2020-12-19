@@ -1,10 +1,12 @@
 .single-messagePlayer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin: 40px 5rem;
+    margin: 40px auto;
     padding: 3rem 5rem;
     background-color: var(--clr-primary-4);
+    width: 70%;
+    height: 45vh;
 }
 
 .single-messagePlayer .content{

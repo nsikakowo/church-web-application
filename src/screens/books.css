@@ -1,0 +1,97 @@
+.menu-tab{
+    margin: 5rem 5rem 5rem;
+}
+
+.menu-tab .tabs{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs li{
+    /* width: 33.3%; */
+    text-align: center;
+    background-color: var(--clr-primary-1);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1rem 0 1rem;
+    
+}
+
+.tabs li a{
+    padding: 1.2rem 170px;
+    color: #000;
+    
+    
+}
+
+.tabs li:hover{
+    background-color: var(--clr-primary-2);
+}
+
+.tab-active{
+    background-color: var(--clr-black);
+    color: var(--clr-white) !important;
+}
+
+.book-search{
+margin: 2rem 5rem 1rem;
+border: 1px solid var(--clr-primary-1);
+border-radius: 5px;
+
+}
+
+.book-search input{
+    width: 97%;
+    padding: 1rem;
+    padding-left: 0;
+    outline: none;
+    /* background-color: red;? */
+   
+    border: none;
+}
+
+input::placeholder{
+    color: var(--clr-primary-1);
+    font-size: 1rem;
+}
+
+.book-search button{
+    width: 3%;
+    padding: 1rem;
+    border: none;
+    background: none;
+    color: var(--clr-primary-1);
+    outline: none;
+}
+
+@media screen and (min-width:1367px) {
+    .tabs li a{
+        padding: 1.2rem 250px;   
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .menu-tab .tabs{
+        height: 60px;
+        display: flex;
+        
+    }
+
+    .tabs li a{
+        padding: 1.2rem 30px;   
+    }
+
+    .book-search input{
+        width: 50%;
+       
+    }
+    
+
+    .book-search button{
+        width: 10%;
+        
+    }
+}

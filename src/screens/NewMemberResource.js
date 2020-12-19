@@ -37,3 +37,4 @@ function NewMemberResource() {
 }
 
 export default NewMemberResource
+

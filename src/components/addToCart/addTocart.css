@@ -1,0 +1,85 @@
+.addContainer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.672);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 30;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-component-container{
+    background-color: var(--clr-white);
+    border-radius: 10px;
+    width: 100%;
+    margin: 3rem 5rem 0;
+}
+
+.add-component-container h2{
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.addcart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 5rem;
+}
+
+.additem-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addcart .additem-photo{
+    background-color: var(--clr-primary-1);
+    width: 200px;
+    height: 270px;
+    margin-right: 2rem;
+}
+
+.additem-controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.additem-controls #addincrease, #adddecrease{
+    color: #000;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 0 2rem;
+    font-weight: 500;
+}
+
+.addcart .additem-remove p{
+    padding: 0 4rem;
+}
+
+.cart-buttons {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cart-buttons  button{
+    margin: 1rem 2rem 1rem;
+}
+
+
+@media screen and (min-width:1367px){
+    .addcart{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 3rem 7rem 3rem 5rem;
+    }
+}
