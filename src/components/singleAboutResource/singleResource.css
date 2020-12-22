@@ -29,6 +29,7 @@
 .resource-container .resource-content p{
     text-align: left;
     line-height: 30px;
+    font-size: 16px;
 }
 
 .resource-container .resource-content h2{

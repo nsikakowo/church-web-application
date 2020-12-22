@@ -10,14 +10,13 @@ const sliderUrl = "https://church.aftjdigital.com/api/sliders"
 function HomeSlider(props) {
     
     const [sliderData, setSliderData] = useState([]);
-    const { image, sub_title, title} = props;
+    // const { image, sub_title, title} = props;
 
     const getSliderContents = async () => {
         const response = await axios.get(sliderUrl);
         const content =  response.data;
         setSliderData(content);
-        
-        
+    
     }
 
     useEffect(() => {
@@ -33,7 +32,6 @@ function HomeSlider(props) {
         <main id='slider'>
             {sliderData.map((item, i) => {
                 if(i === 0) {
-
                     return (
                         <div className="slide" key= {item.id}>
                         <div className="slide-image">

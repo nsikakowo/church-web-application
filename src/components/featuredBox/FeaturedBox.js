@@ -1,15 +1,14 @@
 import React from 'react';
-import {feature} from './data'
+// import {feature} from './data'
 import './featuredBox.css'
 
-function FeaturedBox() {
+function FeaturedBox(props) {
+  const { id, title, text, image } = props;
     return (
         
 
             <section className='featuredBox'>
-          {feature.map((featured) => {
-            const { id, title, text, image } = featured;
-            return (
+          
               <article key={id}>
                   <div className="overlay"></div>
                   <div className="box-image">
@@ -19,12 +18,12 @@ function FeaturedBox() {
                 <p>{text}</p>
                 
               </article>
-            );
-          })}
+           
+          
         </section>
             
-       
     )
-}
+}  
+    
 
 export default FeaturedBox

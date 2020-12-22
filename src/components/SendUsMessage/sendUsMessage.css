@@ -1,18 +1,20 @@
-.message-container{
-
+.main-message-container{
+    margin: 4rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 3rem 5rem;
+    height: 756px;
 }
 
-.message-container h2 {
+.main-message-container h2 {
     font-size: 2rem;
     margin-bottom: 30px;
     font-style: italic;
+    text-align: center;
 }
 
-.message-container #sendMessage{
+.main-message-container #sendMessage{
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 1fr 1fr;
@@ -57,11 +59,11 @@
    border: 1px solid var(--clr-primary-1);
    margin: 2rem 2rem;
    width: 400px;
-   height: 500px;
+   height: 736px;
 }
 
 @media screen and (max-width:800px) {
-    .message-container{
+    .main-message-container{
         flex-direction: column;
         align-items: center;
         padding: 3rem 3rem;

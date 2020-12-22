@@ -4,14 +4,20 @@
     margin: 70px 5rem 0;
     padding: 2rem 0;
     border-radius: 5px 5px 0 0;
+    height: 335px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 .getApp h2{
-    font-size: 1.7rem;
+    font-size:32px;
+    font-weight: 500;
 }
 .getApp h4{
-    font-weight: 500;
-    margin-bottom: 2rem;
+    font-weight: 400;
+    margin-bottom: 24px;
 }
 
 .getApp .buttons img {

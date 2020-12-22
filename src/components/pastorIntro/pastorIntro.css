@@ -1,5 +1,5 @@
 .intro-container{
-    /* height: 700px; */
+    height: 772px;
     padding: 50px 5rem  80px;
     margin-bottom: 1rem;
    
@@ -8,8 +8,8 @@
 .intro{
     display: flex;
     justify-content: center;
-    align-items: center;
-    /* background-color: var(--clr-primary-4); */
+    align-items: flex-start;
+    background-color: var(--clr-primary-4);
     padding: 50px 2rem 80px;
 }
 
@@ -20,6 +20,8 @@
 
 .intro .content h2{
     font-size: 2rem;
+    font-weight: 500;
+    line-height: 44px;
     color: var(--clr-black);
     
 }
@@ -44,7 +46,7 @@
 }
 
 .intro .image .intro-pix{
-    height: 500px;
+    height: 470px;
     width: 460px;
 }
 

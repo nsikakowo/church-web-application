@@ -83,15 +83,19 @@ Variables
     text-transform: capitalize;
     line-height: 1.25;
     margin-bottom: 0.75rem;
+    
   }
   h1 {
     font-size: 1.5rem;
+    font-weight: 500;
   }
   h2 {
     font-size: 1.1rem;
+    font-weight: 500;
   }
   h3 {
     font-size: 1.25rem;
+    font-weight: 500;
   }
   h4 {
     font-size: 0.875rem;

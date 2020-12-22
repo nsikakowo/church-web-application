@@ -49,6 +49,7 @@
     font-style: italic;
     line-height: 1.4;
     font-weight: 500;
+    font-size: 32px;
    
 }
 
@@ -56,6 +57,8 @@
     /* font-style: italic; */
     line-height: 30px;
     width: 75%;
+    font-size: 16px;
+    font-weight: 400;
     
 }
 

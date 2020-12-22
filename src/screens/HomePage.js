@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from '../components/Header/NavBar'
 import SecondaryMenu from '../components/secondaryMenu/SecondayMenu'
 import HomeSlider from '../Apis/homeSlider/Homeslider'
-import FeaturedBox from '../components/featuredBox/FeaturedBox'
+import FeatureBox from '../components/featuredBox/FeatureBox'
 import PastorIntro from '../components/pastorIntro/PastorIntro'
 import OurMission from '../components/ourMission/OurMission'
 import MessageSinglePlayer from '../components/MessageSinglePlayer/MessageSinglePlayer'
@@ -14,13 +14,16 @@ import CallToAction from '../components/callToAction/CallToAction'
 import SendUsMessage from '../components/SendUsMessage/SendUsMessage'
 import Footer from '../components/footer/Footer'
 
+
+
 function HomePage() {
     return (
         <div>
              <NavBar/>
             <SecondaryMenu/>
             <HomeSlider />
-            <FeaturedBox />
+            <FeatureBox/>
+
             <PastorIntro />
             <OurMission/>
             <MessageSinglePlayer />

@@ -28,6 +28,11 @@
     flex: 1.8;
 }
 
+.beliefContent h3{
+    font-weight: 500;
+    font-size: 32px;
+}
+
 #beliefLeft{
     padding-left: 2rem;
 }
@@ -36,6 +41,7 @@
     width: 95%;
     line-height: 30px;
     font-size: 16px;
+    font-weight: 400;
 }
 
 @media screen and (max-width:800px) {

@@ -11,8 +11,8 @@ function MessageSinglePlayer() {
                 <button className='btn-primary'>Get Involved</button>
             </div>
             <div className="video">
-            <iframe width="720" 
-            height="200" 
+            <iframe width="489px" 
+            height="282px" 
             src="https://www.youtube.com/embed/UjpYUa4s-e0" 
             frameBorder="0" allow="accelerometer; picture-in-picture" title= 'message'  allowFullScreen></iframe>
             </div>

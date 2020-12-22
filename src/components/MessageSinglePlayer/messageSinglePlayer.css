@@ -2,12 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px auto;
+    margin: 40px 5rem;
     padding: 3rem 5rem;
     background-color: var(--clr-primary-4);
-    width: 70%;
-    height: 45vh;
+    /* width: 70%; */
+    height: 429px; 
 }
+
 
 .single-messagePlayer .content{
     width: 100%;
@@ -28,11 +29,14 @@
     font-size: 1.5rem;
     font-style: italic;
     text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .single-messagePlayer 
 .content h2{
-    font-size: 2rem;
+    font-size:40px;
+    font-weight: 500;
     font-style: italic;
     margin-bottom: 1.5rem;
     text-transform: lowercase;

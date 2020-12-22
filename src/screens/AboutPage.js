@@ -48,6 +48,7 @@ function AboutPage() {
             beliefTextRight = {'Lorem Ipsum is  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. '}
            beliefPortionRight ={'See Matthew 3 : 16'}
            showBeliefBtn={false}
+           showBeliefBtnRight={false}
             />
             <Beliefs 
             beliefPhoto = {cross2}
@@ -59,6 +60,7 @@ function AboutPage() {
             beliefTextRight = {'Lorem Ipsum is  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. '}
            beliefPortionRight ={'See Matthew 3 : 16'}
            showBeliefBtn={false}
+           showBeliefBtnRight={false}
             />
             <Beliefs 
             beliefPhoto = {communion}
@@ -70,6 +72,7 @@ function AboutPage() {
             beliefTextRight = {'Lorem Ipsum is  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. '}
            beliefPortionRight ={'See John 3 : 16'}
            showBeliefBtn={false}
+           showBeliefBtnRight={false}
             />
             <SingleResource image = {pray} />
             <NeedPrayers  

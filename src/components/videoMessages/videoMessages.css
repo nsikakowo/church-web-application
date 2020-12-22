@@ -1,6 +1,6 @@
 .video-messages-container{
     padding: 40px 0rem;
-    /* margin: 2rem 5rem; */
+    margin: 2rem 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +8,8 @@
 
 .video-messages-container h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 40px;
+    font-weight: 500;
     color: var(--clr-primary-3);
 }
 
@@ -40,14 +41,22 @@ article .video-frame video{
 
 .video-messages-container .message-container
 article h4{
-    color: var(--clr-primary-3);
+    color: var(--clr-black);
+    font-size: 20px;
+    font-weight: 600;
 }
 .video-messages-container .message-container
 article h5{
-    color: var(--clr-primary-3);
+    color: var(--clr-black);
+    font-size: 18px;
+    font-weight: 500;
 }
 .video-messages-container .message-container
 article p{
     margin-top: 1rem;
+    color: var(--clr-black);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
 }
 

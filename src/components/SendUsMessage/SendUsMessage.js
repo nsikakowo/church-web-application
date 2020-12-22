@@ -3,7 +3,7 @@ import './sendUsMessage.css'
 
 function SendUsMessage() {
     return (
-        <div className='message-container'>
+        <div className='main-message-container'>
             <div className="form">
                 <h2>Send Us a Message</h2>
                 <form id='sendMessage'>
@@ -12,7 +12,7 @@ function SendUsMessage() {
                     <input type="text" name="email" 
                     placeholder='Your Email Address'/>
                     <textarea name="message"  cols="30" 
-                    rows="10"></textarea>
+                    rows="20"></textarea>
                     <label htmlFor="checkbox" id= 'checkLabel'>
                     <input type="checkbox" name="agreement" id='check'
                      value='agreement'/>
