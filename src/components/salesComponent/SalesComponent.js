@@ -1,16 +1,21 @@
 import React from 'react'
 import './sales.css'
 
-function SalesComponent() {
+function SalesComponent(props) {
+
+    const {productImage, productName, productPrice, productAuthor} = props;
+
     return (
         <div className='sales-container'>
+            <div className = "productBox">
             <div className="sales-image">
-                <img src="" alt=""/>
+                <img src={productImage} alt=""/>
+            </div>
             </div>
             <div className="sales-details">
-                <h4>The Normad Chocktail </h4>
-                <p>Leo Robistscher</p>
-                <p>$10.00</p>
+                <h4>{productName} </h4>
+                <p>{productAuthor}</p>
+                <p>{productPrice}</p>
                 <button className= 'btn-outline'>Add to Cart</button>
             </div>
         </div>

@@ -8,6 +8,9 @@ import MessageSinglePlayer from '../components/MessageSinglePlayer/MessageSingle
 import Beliefs  from '../components/beliefs/Beliefs'
 import Footer from '../components/footer/Footer'
 
+import find from './all-images/find.jpg'
+import question from './all-images/questions.jpg'
+
 function Volunteer() {
     return (
         <div >
@@ -28,7 +31,7 @@ function Volunteer() {
             <VolunteerForm />
             <MessageSinglePlayer />
             <Beliefs 
-             beliefTitle ={'We Are Easy To Find'}
+             beliefTitle ={'We Are Easy To Find'} beliefPhoto ={find} beliefPhotoRight ={question}
              beliefText = {'Kidslife is a place where Kids experience that God is Great.  Lorem Ipsum is simply dummy text of the printing and typesetting industry. '}
             beliefBtn = {'click for directions'}
             beliefTitleRight ={'More Questions?'}

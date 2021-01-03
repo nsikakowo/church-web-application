@@ -2,7 +2,7 @@ import React from 'react'
 import './singleslider.css'
 
 function SingleSlider(props) {
-    const {heading, tagline, image} = props
+    const {heading, tagline, image, children} = props
     return (
         <div id='singleSlider'>
              <div className="single-slide">
@@ -10,6 +10,7 @@ function SingleSlider(props) {
                     <img src={image} alt="slider-background"/>
                 </div>
                 <h1>{heading} </h1>
+                {children}
     <h5>{tagline}</h5>
             </div>
         </div>

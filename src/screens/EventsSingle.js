@@ -9,7 +9,9 @@ import EventSummaryBanner from '../components/eventSummaryBanner/EventSummaryBan
 import SendUsMessage from '../components/SendUsMessage/SendUsMessage'
 import Footer from '../components/footer/Footer'
 
-import './eventSingle.css'
+import banner from './all-images/banner.jpg'
+import simpsons from './all-images/simpsons.jpg'
+
 
 function EventsSingle() {
     
@@ -17,7 +19,7 @@ function EventsSingle() {
         <div>
              <NavBar/>
             <SecondaryMenu/>
-            <SingleSlider    heading ={'COUPLES CONFRENCE 2020'} tagline = {'Together Forever | July 21th - 31st  '} />
+            <SingleSlider    heading ={'COUPLES CONFRENCE 2020'} tagline = {'Together Forever | July 21th - 31st  '} image ={banner}/>
             <SubTitle  heading={'The Relationship You Have Been Longing For  '}
              
                subheading = {'Jesus tells us in John 15:17, “This is what I command you: that you love and unselfishly seek the best for one another.” God created marriage and He knew we will have a life-giving marriage when we put each other first. Spark 2020 will feature the most powerful segments that have occurred over the last 5 years and there will also be a few surprises along the way! Spark 2020 will help you have a marriage full of life, joy, and peace.'}>
@@ -38,7 +40,7 @@ function EventsSingle() {
                 </article>
 
                 <SubTitle  heading={'Speakers '} />
-                <InfoBoard title = {'David and Tamara Simpsons'} showBtn = {false}
+                <InfoBoard title = {'David and Tamara Simpsons'} showBtn = {false} image ={simpsons}
             description = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'}>
             
              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

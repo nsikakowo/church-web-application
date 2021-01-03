@@ -7,13 +7,16 @@ import Gallery from '../components/gallery/Gallery'
 import data from '../components/gallery/data'
 import Footer from '../components/footer/Footer'
 
+import mission from './all-images/mission.jpg'
+
 function Missions() {
     const [items, setItems] = useState(data)
     return (
         <div>
              <NavBar/>
             <SecondaryMenu/>
-            <SingleSlider heading ={'CHURCH MISSIONS'} tagline = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry.  '} />
+            <SingleSlider heading ={'CHURCH MISSIONS'}  image ={mission}
+            tagline = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry.  '} />
             <SubTitle  heading={'About Our Church Missions'}
              
                subheading = {'How beautiful on the mountains are the feet of those who bring good news,\

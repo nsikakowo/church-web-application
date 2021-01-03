@@ -11,6 +11,10 @@ import SendUsMessage from '../components/SendUsMessage/SendUsMessage'
 import Footer from '../components/footer/Footer'
 
 import banner from './all-images/plant.jpg'
+import bible from './about-images/bible.jpg'
+import cross1 from './about-images/cross1.jpg'
+import cross2 from './about-images/cross2.jpg'
+
 
 
 function NewLifeInChrist() {
@@ -24,6 +28,8 @@ function NewLifeInChrist() {
              subheading= {'We are so excited for you as you step into your New Beginning! This is the best decision of your life! We suggest the following next steps to help you grow in your relationship with Christ.'}
             />
             <Beliefs 
+             beliefPhoto = {bible}
+             beliefPhotoRight ={cross1}
             beliefBtn = {'Get started'}
              beliefTitle ={'The Bible'}
              beliefText = {'Lorem Ipsum is  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. '}
@@ -34,10 +40,12 @@ function NewLifeInChrist() {
            beliefBtnRight = {'Join A Group'}
             />
             <Beliefs 
+            beliefPhoto = {cross2}
              beliefTitle ={'Salvation'}
              beliefText = {'Lorem Ipsum is  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. '}
             beliefPortion ={'See 2 Timothy 3 : 16'}
            beliefBtn = {'Download'}
+           showBeliefBtnRight={false} showRight ={false}
             />
             <SubTitle 
              subheading= {'We are so excited for you as you step into your New Beginning! This is the best decision of your life! We suggest the following next steps to help you grow in your relationship with Christ.'}

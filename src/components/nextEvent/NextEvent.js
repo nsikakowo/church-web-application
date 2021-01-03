@@ -11,7 +11,7 @@ function NextEvent() {
   let  interval = useRef();
 
   const startTimer = () => {
-    const countDownDate = new Date('December 31, 2020 00:00:00').getTime();
+    const countDownDate = new Date('March 11, 2021 04:15:00').getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();

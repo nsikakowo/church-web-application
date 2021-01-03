@@ -7,6 +7,7 @@ import Events from '../components/eventsComponent/Events'
 
 import CallToAction from '../components/callToAction/CallToAction'
 import Footer from '../components/footer/Footer'
+import './eventSingle.css'
 
 import banner from './all-images/event.jpg'
 

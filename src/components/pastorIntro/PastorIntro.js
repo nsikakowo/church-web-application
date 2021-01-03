@@ -1,6 +1,6 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import pastorPicture from './simpsons.png';
+// import pastorPicture from './simpsons.png';
 import './pastorIntro.css'
 
 function PastorIntro() {

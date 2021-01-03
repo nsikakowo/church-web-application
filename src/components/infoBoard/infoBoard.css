@@ -5,12 +5,12 @@
 }
 
 .infoboard .info-image{
-    width: 250px;
-    height: 250px;
+    width: 390px;
+    height: 362px;
     margin-right: 2rem;
     background-color: var(--clr-primary-2);
     flex: 0.6;
-    border-radius: 5px;
+    border-radius: 6px;
     overflow: hidden;
 }
 
@@ -22,7 +22,9 @@
 
 .infoboard .info-details{
     flex: 1.4;
+
 }
+
 
 .infoboard .info-details h2{
     font-size: 2rem;
@@ -32,6 +34,8 @@
 
 .infoboard .info-details p{
     color: var(--clr-primary-3);
+    width: 90%;
+    line-height: 30px;
 }
 
 @media screen and (max-width:800px) {

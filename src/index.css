@@ -103,6 +103,7 @@ Variables
   p {
     margin-bottom: 1.25rem;
     color: var(--clr-primary-3);
+    line-height: 30px;
   }
 
   .btn-primary{
