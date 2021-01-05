@@ -23,7 +23,7 @@ function PastorIntro() {
                     </div>
                     <h5>David & Tamara Simpsons</h5>
                     <p>Senior Pastor AFTJ Church</p>
-                </div>
+                </div>  
             </div>
         </section>
     )

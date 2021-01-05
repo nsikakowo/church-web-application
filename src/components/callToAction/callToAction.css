@@ -5,7 +5,7 @@
     align-items: center;
     text-align: center;
     background-color: var(--clr-primary-4);
-    margin: 0px 5rem 30px;
+    margin: 0px 10rem 30px;
     padding: 3rem 0;
     border-radius: 0 0 5px 5px;
     background-image: url('https://beulahatl.org/wp-content/uploads/2019/10/edward-cisneros-KoKAXLKJwhk-unsplash-1200x800.jpg');
@@ -68,4 +68,25 @@
         margin: 0px 3rem 30px;
         
     }
+    .cta h2{
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .cta .subscribe {
+        margin:20px 0 30px;
+        display: flex;
+        width: 90%;
+        
+    }
+}
+
+@media screen and (min-width:1367px) {
+
+    .cta{
+        margin: 0px 20rem 30px;
+        
+    }
+
+    
 }

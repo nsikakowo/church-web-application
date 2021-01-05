@@ -1,5 +1,6 @@
 import React from 'react'
 import './sendUsMessage.css'
+import googlemap from './map.jpg'
 
 function SendUsMessage() {
     return (
@@ -22,7 +23,7 @@ function SendUsMessage() {
                 </form>
             </div>
             <div className="google-map">
-                <img src="" alt=""/>
+                <img src={googlemap} alt=""/>
             </div>
         </div>
     )

@@ -69,7 +69,7 @@ function NextEvent() {
         <div>
           <p> {timerSeconds} </p>
           <p><small>Seconds</small></p>
-        </div>
+        </div> 
           
       </section>
       </div>

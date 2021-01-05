@@ -2,11 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px 5rem;
+    margin: 20px 9rem;
     padding: 3rem 5rem;
+    margin-bottom: 4rem;
     background-color: var(--clr-primary-4);
     /* width: 70%; */
-    height: 429px; 
+    /* height: 429px;    */
 }
 
 
@@ -53,9 +54,17 @@
     }
 
     .single-messagePlayer .video{
-        width: 420px;
+        width: 20rem;
         border-radius: 15px;
         margin-top: 30px;
+        padding: 1rem;
     }
 
+}
+
+@media screen and (min-width:1367px) {
+    .single-messagePlayer{
+        margin: 10px 20rem 4rem;
+        padding: 2rem 5rem;
+    }
 }

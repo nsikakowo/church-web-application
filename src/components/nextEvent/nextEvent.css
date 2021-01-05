@@ -10,15 +10,16 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin: 1rem 0rem 1rem 4rem
 }
 
 .timer-container .title h3{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 
 }
 
 .timer-container .title p{
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: #fff;
     margin: 0;
 }
@@ -36,7 +37,7 @@
 }
 
 .timer div p{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin: 2px;
     color: #fff;
 }
@@ -52,7 +53,8 @@
     border: none;
     padding: 20px 25px;
     border-radius: 6px;
-    margin-left: 6rem;
+    margin-left: 1rem;
+    margin-right: 4rem;
     cursor: pointer;
     transition: .8s;
     animation: glow 2s  ease-in-out infinite alternate-reverse;
@@ -71,7 +73,7 @@
 
 @media screen and (max-width:800px) {
     .timer div{
-        margin: 2px 15px 10px;
+        margin: 2px 5px 5px;
         text-align: center;
     }
 
@@ -80,7 +82,7 @@
     }
 
     .timer div p{
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         margin: 1px;
     }
     
@@ -91,9 +93,9 @@
     .timer-container .title{
         display: flex;
         justify-content: flex-start;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
-        margin-bottom: 0.7rem;
+        /* margin-bottom: 0.7rem; */
     }
 
     .time-block{
@@ -101,12 +103,13 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+        margin: 0rem;
     }
 
     .timer-container .title h3{
-        font-size: 1.4rem;
+        font-size: 1rem;
         color: var(--clr-white);
-        margin-bottom: 1px;
+        margin: 0rem;
         text-align: center;
     }
     
@@ -115,23 +118,24 @@
         font-weight: 500;
         color: #fff;
         padding: 0;
-        margin: 0;
+        margin: 1rem;
         color: var(--clr-primary-5);
         display: none;
     }
 
     .timer-container{
-        width: 100vw;
-        margin: 5px 2px 10px;
-        padding: 2px 5px;
+        width: 100%;
+        margin: 5px 0px 10px;
+        padding: 2px 2px;
         flex-direction: column;
     }
 
     .service-reg button{
         
-        padding: 10px 15px;
+        padding: 7px 15px;
         border-radius: 3px;
-        margin-left: 0rem;
+        margin: 0rem;
+        /* margin-bottom: .1rem; */
         
     }
 }
@@ -140,8 +144,12 @@
     .service-reg button{
         padding: 20px 25px;
         border-radius: 6px;
-        margin-right: 2rem;
+        margin-right: 16rem;
        
+    }
+
+    .time-block{
+       margin: 1rem 0rem 1rem 16rem;
     }
     
 }

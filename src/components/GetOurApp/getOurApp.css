@@ -1,7 +1,7 @@
 .getApp{
     text-align: center;
     background-color: var(--clr-primary-4);
-    margin: 70px 5rem 0;
+    margin: 70px 10rem 0;
     padding: 2rem 0;
     border-radius: 5px 5px 0 0;
     height: 335px;
@@ -33,7 +33,13 @@
     .getApp{
         
         margin: 70px 3rem 0;
-        padding: 2rem 0;
+        padding: 15rem 0px;
         
+    }
+}
+
+@media screen and (min-width:1367px){
+    .getApp{
+        margin: 70px 20rem 0;
     }
 }

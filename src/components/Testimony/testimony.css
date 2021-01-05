@@ -2,15 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3rem 5rem;
+    margin: 3rem 10rem;
     background-color: var(--clr-primary-4);
     border-radius: 5px;
-    padding: 30px 0;
-    height: 592px;
+    padding: 1rem 0;
+    /* height: 592px; */
+    position: relative;
 }
 
 .big-testifier{
-    width: 558px;
+    position: relative;
+    width: 562px;
     height: 529px;
     border: 1px solid var(--clr-primary-1);
     flex: 1;
@@ -39,7 +41,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 2rem;
 
 }
 
@@ -76,7 +78,6 @@
 .text-area p{
     font-size: 1rem;
    font-weight: 400;
-   line-height: 30px;
 }
 .text-area button{
     margin-top: 2rem;
@@ -89,24 +90,31 @@
 @media screen and (max-width:800px) {
     .testimony-container{
         flex-direction: column;
-        margin: 3rem 1rem;
+        margin: 5rem 1rem;
         background-color: var(--clr-primary-4);
         border-radius: 5px;
-        padding: 30px 0px;
+        padding: 2rem 1rem;
     }
 
     .big-testifier{
-        width: 500px;
-        height: 400px;
-        /* border: 1px solid var(--clr-primary-1); */
+        width: 100%;
+        height: 15rem;
+        border: none;
         flex: 1;
-        overflow: hidden;
-        
+        overflow: hidden;   
+    }
+    .big-testifier img{
+        width: 90%;
+        height: 100%;
+        object-fit: cover; 
+         /* object-position: bottom; */
     }
 
     .content-area{
         flex: 1;
-        padding: 3rem;
+        padding: 3rem 1rem;
+        width: 100%;
+        height: 100%;
     }
 
     .content-area .small-testifier .box {
@@ -126,6 +134,10 @@
         object-fit: cover;
     }
 
+    .content-area .small-testifier{
+        justify-content: center;
+    }
+
     .content-area .small-testifier .box img{
         width: 100%;
         height: 100%;
@@ -138,6 +150,10 @@
         width: 25%;
         height: 150px;
         margin-right: 1rem;
+    }
+
+    .testimony-container{
+        margin: 3rem 20rem;
     }
 }
 

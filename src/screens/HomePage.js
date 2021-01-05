@@ -4,7 +4,7 @@ import SecondaryMenu from '../components/secondaryMenu/SecondayMenu'
 import HomeSlider from '../Apis/homeSlider/Homeslider'
 import FeatureBox from '../components/featuredBox/FeatureBox'
 import PastorIntro from '../components/pastorIntro/PastorIntro'
-import OurMission from '../components/ourMission/OurMission'
+// import OurMission from '../components/ourMission/OurMission'
 import MessageSinglePlayer from '../components/MessageSinglePlayer/MessageSinglePlayer'
 import UpcomingEvents from '../components/upcomingEvents/UpcomingEvents'
 import NeedPrayers from '../components/NeedPrayers/NeedPrayers'
@@ -25,7 +25,7 @@ function HomePage() {
             <FeatureBox/>
 
             <PastorIntro />
-            <OurMission/>
+            {/* <OurMission/> */}
             <MessageSinglePlayer />
             <UpcomingEvents /> 
             

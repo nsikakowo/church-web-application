@@ -1,7 +1,14 @@
 .upcomingEvents{
     width: 100%;
-    padding: 30px 5rem;
+    padding: 30px 9rem;
 }
+
+.upcomingEvents .upcomingContainer
+    .event{
+        width: 32%;
+        height: 331px;
+        margin-bottom: 5rem;
+    }
 
 .upcomingEvents h1{
     text-align: center;
@@ -19,7 +26,7 @@
 
 .upcomingEvents .upcomingContainer
 .event-photo{
-    width: 363px;
+    width: 331px;
     height: 272px;
     background-color: var(--clr-primary-4);
     border-radius: 5px;
@@ -53,12 +60,33 @@
 }
 
 @media screen and (max-width:800px) {
+
+    .upcomingEvents h1{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        margin-top: 4rem;
+        margin-bottom: 20px;
+    }
+
+    .upcomingEvents{
+        width: 100%;
+        padding: 30px 0rem;
+    }
+
     .upcomingEvents .upcomingContainer{
        flex-direction: column;
-        margin: 10px auto;
+        margin: 10px 1rem;
         justify-content: center;
-        width: 100%;
+        width: 90%;
        
+    }
+
+    .upcomingEvents .upcomingContainer
+    .event{
+        width: 100%;
+        height: 331px;
+        margin-bottom: 2rem;
     }
 
     .upcomingEvents .upcomingContainer
@@ -85,6 +113,11 @@
         height: 363px;
         margin-bottom: 5rem;
     }
+
+    .upcomingEvents{
+    width: 100%;
+    padding: 30px 20rem;
+}
 
     .upcomingEvents .upcomingContainer
     .event-photo{

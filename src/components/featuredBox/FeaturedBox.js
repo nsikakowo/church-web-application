@@ -19,7 +19,7 @@ function FeaturedBox(props) {
                 
               </article>
            
-          
+           
         </section>
             
     )

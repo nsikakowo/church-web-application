@@ -6,11 +6,11 @@ import './upcomingEvents.css'
 
 function UpcomingEvents() {
     return (
-        <div className= 'upcomingEvents'>
+        <div className= 'upcomingEvents'> 
             <h1>Upcoming Events</h1>
         <div className=' upcomingContainer'>
             <article className='event'>
-                <div className="event-photo">
+                <div className="event-photo"> 
                 <img src='https://images.unsplash.com/photo-1526746323784-6bc814d79273?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max' alt="event"/>
                 </div>
                 <h5>Thu, jul 15th</h5>
