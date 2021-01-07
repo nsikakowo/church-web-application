@@ -1,5 +1,5 @@
 .store-banner{
-    margin: 2rem 5rem; 
+    margin: 2rem 10rem; 
     position: relative;
     overflow: hidden;
     /* width: 100%; */
@@ -70,6 +70,13 @@
     }
     .store-banner p{
         width: 90%;
+    }
+}
+
+@media screen and (min-width:1367px){
+    .store-banner
+    {
+        margin: 2rem 20rem;
     }
 }
 

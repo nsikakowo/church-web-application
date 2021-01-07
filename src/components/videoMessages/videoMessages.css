@@ -1,6 +1,6 @@
 .video-messages-container{
     padding: 40px 0rem;
-    margin: 2rem 5rem;
+    margin: 2rem 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,12 +22,17 @@
 .video-messages-container .message-container
 article{
     margin: 1rem;
+    width: 14rem;
+}
+
+.video-frame.message-container article :first-child {
+    margin-left: 0;
 }
 
 .video-messages-container .message-container
 article .video-frame{
-    width: 264px;
-    height: 264px;
+    width: 240px;
+    height: 250px;
     overflow: hidden;
     margin-bottom: 1rem;
 }
@@ -58,5 +63,27 @@ article p{
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
+}
+
+@media screen and (min-width:1367px){
+    .video-messages-container .message-container
+    article .video-frame{
+        width: 330px;
+        height: 350px;
+        
+    }
+
+    .video-messages-container .message-container
+article{
+    margin: 1rem;
+    width: 17rem;
+}
+
+.video-messages-container .message-container
+article .video-frame{
+    width: 270px;
+    height: 250px;
+    
+}
 }
 

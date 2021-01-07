@@ -4,7 +4,7 @@
     overflow: hidden;
     /* width: 100%; */
     height: 362px;
-    padding: 3rem 5rem;
+    padding: 3rem 10rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -71,6 +71,12 @@
     }
     .fullInfo-banner p{
         width: 90%;
+    }
+}
+
+@media screen and (min-width:1367px){
+    .fullInfo-banner{
+        padding: 3rem 20rem;
     }
 }
 

@@ -1,5 +1,5 @@
 .event{
-    margin: 2rem 5rem;
+    margin: 2rem 10rem;
     
 }
 
@@ -140,4 +140,10 @@
         font-weight: 500;
     }
    
+}
+
+@media screen and (min-width:1367px){
+    .event{
+        margin: 3rem 20rem;
+    }
 }

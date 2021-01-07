@@ -1,5 +1,5 @@
 .new-member-resource-container{
-    margin: 2rem 5rem;
+    margin: 2rem 10rem;
     position: relative;
 }
 
@@ -103,4 +103,11 @@
 .new-member-resource-container .resource-details .speaker{
     font-size: 14px;
     font-weight: 400;
+}
+
+@media screen and (min-width:1367px){
+    .new-member-resource-container{
+        margin: 2rem 20rem;
+        position: relative;
+    }
 }

@@ -3,8 +3,8 @@
 }
 
 .sales-container .productBox{
-    width: 362px;
-    height: 362px;
+    width: 330px;
+    height: 330px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,5 +48,8 @@
     width: 500px;
     height: 500px;
     
+}
+.sales-container{
+    margin: 2rem 0rem;
 }
 }

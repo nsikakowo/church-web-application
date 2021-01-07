@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     /* width: 100%; */
-    margin: 3rem 5rem;
+    margin: 3rem 10rem;
     text-align: center;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .group-title{
-    margin: 2rem 5rem;
+    margin: 2rem 10rem;
     border-bottom: 1px solid var(--clr-primary-1);
 }
 
@@ -33,4 +33,15 @@
 
 .group-title p{
     width: 50%;
+}
+
+@media screen and (min-width:1367px){
+    .google-map-box{
+        
+        margin: 3rem 20rem;
+    }    
+    .group-title{
+        margin: 2rem 20rem;
+        
+    }
 }

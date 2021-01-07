@@ -23,7 +23,7 @@ function SendUsMessage() {
                 </form>
             </div>
             <div className="google-map">
-                <img src={googlemap} alt=""/>
+                <img src='' alt=""/>
             </div>
         </div>
     )

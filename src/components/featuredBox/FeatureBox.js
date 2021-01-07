@@ -20,8 +20,7 @@ function FeatureBox(props) {
         getBoxData();
     }, [])
     
-    // console.log(boxData);
-
+ 
     return(
        
         <section className='featuredBox'>  
@@ -35,7 +34,7 @@ function FeatureBox(props) {
               </div>
               <h4>{item.title}</h4>
               <p>{item.details}</p>
-              console.log({item.title})
+             
               
             </article>
             )

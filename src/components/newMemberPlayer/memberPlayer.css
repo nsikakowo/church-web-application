@@ -1,7 +1,6 @@
 .player-container{
-    margin: 3rem 5rem;
+    margin: 3rem 8rem;
     border-radius: 5px;
-    width: 90%;
     height: 555px;
     display: flex;
     justify-content: center;
@@ -107,4 +106,10 @@
     top: 50%;
     left: 50%;
     cursor: pointer;
+}
+
+@media screen and (min-width:1367px){
+    .player-container{
+        margin: 3rem 18rem;
+    }
 }

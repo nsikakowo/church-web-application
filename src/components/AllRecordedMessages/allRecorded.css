@@ -1,6 +1,6 @@
 .all-messages-container{
     padding: 40px 0rem;
-    margin: 2rem 5rem;
+    margin: 2rem 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,12 +20,12 @@
 
 .all-messages-container .message-container
 article{
-    margin: 1rem;
+    margin: 0rem;
 }
 
 .all-messages-container .message-container
 article .video-frame{
-    width: 264px;
+    width: 240px;
     height: 264px;
     overflow: hidden;
     margin-bottom: 1rem;
@@ -85,4 +85,23 @@ article p{
     color: var(--clr-primary-1);
     background-color: transparent;
     
+}
+
+
+@media screen and (min-width:1367px) {
+    .all-messages-container{
+        margin: 2rem 20rem;
+    }
+
+    .all-messages-container .message-container
+article .video-frame{
+    width: 264px;
+    height: 264px;
+    
+}
+
+.all-messages-container .message-container
+article{
+    margin: 1rem;
+}
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 // import recharge from './recharge.jpg'
 // import couple from './couple.jpg'
-// import foster from './foster.jpg'
+// import foster from './child.jpg'
 import './upcomingEvents.css'
 
 function UpcomingEvents() {

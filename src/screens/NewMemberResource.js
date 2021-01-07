@@ -13,7 +13,7 @@ function NewMemberResource() {
         <div >
              <NavBar/>
             <SecondaryMenu/>
-            <h2 style={{margin: '3rem 5rem 0rem'}}>New Beginning Classes</h2>
+            <h2 style={{margin: '3rem 20rem 0rem'}}>New Beginning Classes</h2>
             <NewMemberComponent 
             sn = {'1'}  image = {banner} series = {"Session One"} title = {'A New Beginning'}
             duration = {'18:22'} venue ={'Our Church'}  speaker = {'Pastor Davids Simpsons'}

@@ -19,6 +19,7 @@ function PastorIntro() {
                 </div>
                 <div className="image">
                     <div className="intro-pix">
+                        <div className='bg'></div>
                     <img src='https://i.pinimg.com/564x/99/49/d7/9949d7c9d17386039b7c07c581e9feec.jpg' alt="pastorpicture"/>
                     </div>
                     <h5>David & Tamara Simpsons</h5>

@@ -8,7 +8,7 @@ import UpcomingEvents from '../components/upcomingEvents/UpcomingEvents'
 import NeedPrayers from '../components/NeedPrayers/NeedPrayers'
 import VideoMessages from '../components/videoMessages/VideoMessages'
 import CallToAction from '../components/callToAction/CallToAction'
-import SendUsMessage from '../components/SendUsMessage/SendUsMessage'
+// import SendUsMessage from '../components/SendUsMessage/SendUsMessage'
 import Footer from '../components/footer/Footer'
 
 import banner from './all-images/servicetime.jpg'
@@ -40,7 +40,7 @@ function ServiceTimes() {
             <VideoMessages />
             
             <CallToAction />
-            <SendUsMessage />
+            {/* <SendUsMessage /> */}
             <Footer/>
 
         </div>

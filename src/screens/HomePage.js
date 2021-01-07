@@ -8,10 +8,10 @@ import PastorIntro from '../components/pastorIntro/PastorIntro'
 import MessageSinglePlayer from '../components/MessageSinglePlayer/MessageSinglePlayer'
 import UpcomingEvents from '../components/upcomingEvents/UpcomingEvents'
 import NeedPrayers from '../components/NeedPrayers/NeedPrayers'
-import Testimony from '../components/Testimony/Testimony'
+// import Testimony from '../components/Testimony/Testimony'
 import GetOurApp from '../components/GetOurApp/GetOurApp'
 import CallToAction from '../components/callToAction/CallToAction'
-import SendUsMessage from '../components/SendUsMessage/SendUsMessage'
+// import SendUsMessage from '../components/SendUsMessage/SendUsMessage'
 import Footer from '../components/footer/Footer'
 
 
@@ -42,10 +42,10 @@ function HomePage() {
             photo2 = {'https://img.freepik.com/free-photo/group-multiethnic-creative-business-people-working-project-having-brainstorming-meeting-team-work-brainstorming-concept_58466-12409.jpg?size=626&ext=jpg'}
             />
 
-            <Testimony />
+            {/* <Testimony /> */}
+            {/* <SendUsMessage /> */}
             <GetOurApp/>
             <CallToAction />
-            <SendUsMessage />
             <Footer/>
         </div>
     )

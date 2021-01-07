@@ -1,7 +1,7 @@
 .infoboard{
     display: flex;
     justify-content: space-between;
-    margin: 3rem 5rem;
+    margin: 3rem 10rem;
 }
 
 .infoboard .info-image{
@@ -34,7 +34,7 @@
 
 .infoboard .info-details p{
     color: var(--clr-primary-3);
-    width: 90%;
+    width: 100%;
     line-height: 30px;
 }
 
@@ -42,5 +42,11 @@
     .infoboard{
         flex-direction: column;
         margin: 2rem 2rem;
+    }
+}
+
+@media screen and (min-width:1367px){
+    .infoboard{
+        margin: 3rem 20rem;
     }
 }

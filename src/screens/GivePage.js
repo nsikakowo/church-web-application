@@ -35,11 +35,7 @@ function GivePage() {
                     <p>Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. Ratione nesciunt architecto 
                         optio explicabo ducimus impedit asperiores.
-                         In volupttem natus molestias quidem distinctio nulla?
-                          Voluptatum, doloribus nemo. Fugit, architecto alias
-                           laboriosam maiores cumque neque cum hic soluta 
-                           consectetur delectus tempora ad ratione dolorum
-                            in ab veniam quisquam, iure voluptatum dicta natus.</p>
+                         .</p>
                 </div>
             </div>
             <Footer/>

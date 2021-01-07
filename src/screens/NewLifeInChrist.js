@@ -3,7 +3,7 @@ import NavBar from '../components/Header/NavBar'
 import SecondaryMenu from '../components/secondaryMenu/SecondayMenu'
 import SingleSlider from '../components/singleSlider/SingleSlider'
 import SubTitle from '../components/subTitle/SubTitle'
-import BannerPlayer from '../components/bannerVideoPlayer/BannerPlayer'
+import MemberPlayer from '../components/newMemberPlayer/MemberPlayer'
 import Beliefs  from '../components/beliefs/Beliefs'
 import GetOurApp from '../components/GetOurApp/GetOurApp'
 import CallToAction from '../components/callToAction/CallToAction'
@@ -14,6 +14,7 @@ import banner from './all-images/plant.jpg'
 import bible from './about-images/bible.jpg'
 import cross1 from './about-images/cross1.jpg'
 import cross2 from './about-images/cross2.jpg'
+import playerbg from './all-images/pastor.jpg'
 
 
 
@@ -23,7 +24,7 @@ function NewLifeInChrist() {
              <NavBar/>
             <SecondaryMenu/>
             <SingleSlider heading ={'NEW LIFE IN CHRIST.'}  image ={banner} />
-            <BannerPlayer />
+            <MemberPlayer image ={playerbg} />
             <SubTitle 
              subheading= {'We are so excited for you as you step into your New Beginning! This is the best decision of your life! We suggest the following next steps to help you grow in your relationship with Christ.'}
             />
@@ -50,9 +51,9 @@ function NewLifeInChrist() {
             <SubTitle 
              subheading= {'We are so excited for you as you step into your New Beginning! This is the best decision of your life! We suggest the following next steps to help you grow in your relationship with Christ.'}
             />
+            <SendUsMessage />
           <GetOurApp/>
             <CallToAction />
-            <SendUsMessage />
             <Footer/>
 
         </div>

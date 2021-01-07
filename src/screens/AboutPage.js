@@ -86,9 +86,9 @@ function AboutPage() {
             photo2 = {boy}
             />
             
+            <SendUsMessage />
             <GetOurApp/>
             <CallToAction />
-            <SendUsMessage />
             <Footer/>
         </div>
     )

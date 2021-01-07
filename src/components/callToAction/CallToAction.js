@@ -4,6 +4,7 @@ import './callToAction.css'
 function CallToAction() {
     return (
         <div className='cta'>
+            <div className='cta-overlay'></div>
             <h2>STAY CONNECTED</h2>
             <p>Subscribe to our 
                 weekly newsletter to stay up to 

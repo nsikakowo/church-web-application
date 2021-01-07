@@ -1,7 +1,7 @@
 .giving-details{
     display: flex;
     justify-content: space-between;
-    margin: 3rem 5rem;
+    margin: 3rem 10rem;
 }
 
 .giving-image{
@@ -37,5 +37,11 @@
     .giving-content h2{
         font-size: 1.6rem;
         margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width:1367px){
+    .giving-details{
+        margin: 3rem 20rem;
     }
 }

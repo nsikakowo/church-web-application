@@ -47,7 +47,7 @@
 .upcomingEvents article h5{
     text-transform: uppercase;
     margin: 0.4rem auto;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     color: var(--clr-black);
 }
@@ -55,7 +55,7 @@
 .upcomingEvents article p{
     color: var(--clr-black);
     font-weight: 500;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 28px;
 }
 

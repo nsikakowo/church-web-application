@@ -48,6 +48,19 @@
 .intro .image .intro-pix{
     height: 470px;
     width: 460px;
+    position: relative;
+    z-index: 7;
+}
+
+.intro .intro-pix .bg{
+    background-color:  #cdf4fc;
+    height: 470px;
+    width: 460px;
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+    right:-20px
+
 }
 
 .intro .image .intro-pix img {

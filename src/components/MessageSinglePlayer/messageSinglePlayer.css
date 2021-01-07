@@ -3,11 +3,13 @@
     justify-content: center;
     align-items: center;
     margin: 20px 9rem;
-    padding: 3rem 5rem;
+    padding: 1rem 5rem;
     margin-bottom: 4rem;
+    /* background-color: #acafe1; */
     background-color: var(--clr-primary-4);
     /* width: 70%; */
     /* height: 429px;    */
+    /* color: #fff; */
 }
 
 
@@ -23,22 +25,29 @@
 .single-messagePlayer .video video,
 .single-messagePlayer .video iframe {
     width: 100%;
+    border-radius: 5px;
 }
 
 .single-messagePlayer 
 .content p{
     font-size: 1.5rem;
-    font-style: italic;
+    /* font-style: italic; */
     text-transform: capitalize;
     font-size: 24px;
     font-weight: 500;
+    /* color: #fff; */
+}
+
+.single-messagePlayer .content button{
+    /* background-color: #fff; */
+    /* color: #2c3496; */
 }
 
 .single-messagePlayer 
 .content h2{
     font-size:40px;
     font-weight: 500;
-    font-style: italic;
+    /* font-style: italic; */
     margin-bottom: 1.5rem;
     text-transform: lowercase;
 }

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5rem 5rem;
+    margin: 5rem 10rem;
     color: var(--clr-primary-3);
 }
 
@@ -32,7 +32,7 @@
 }
 
 .groupContainer .groupContent p{
-    width: 95%;
+    width: 100%;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
@@ -47,5 +47,11 @@
     .groupContainer .groupContent{
         padding: 1rem 1rem 1rem;
         flex: 1;
+    }
+}
+
+@media screen and (min-width:1367px){
+    .groupContainer{
+        margin: 5rem 20rem;
     }
 }

@@ -1,7 +1,7 @@
 .subtitle {
     text-align: center;
     color: var(--clr-primary-3);
-    margin: 50px 5rem;
+    margin: 50px 10rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -21,4 +21,11 @@
     font-weight: 400;
     width: 90%;
     color: var(--clr-primary-3);
+}
+
+
+@media screen and (min-width:1367px){
+    .subtitle{
+        margin: 50px 20rem;
+    }
 }
