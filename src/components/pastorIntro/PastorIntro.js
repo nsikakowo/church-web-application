@@ -1,31 +1,47 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import {NavLink} from 'react-router-dom'
-// import pastorPicture from './simpsons.png';
+import axios from 'axios';
 import './pastorIntro.css'
 
+const pastorIntroApi = 'https://church.aftjdigital.com/api/pastor_intro'
+
 function PastorIntro() {
+
+    const [introData, setIntroData] = useState([]);
+
+    const getIntroData = async () => {
+        const response = await axios.get(pastorIntroApi);
+        const introBoxData = response.data.featured_box;
+        
+        setIntroData(introBoxData);
+    }
+    useEffect(() => {
+        getIntroData();
+    }, [])
+
+
     return (
         <section className='intro-container'>
-            <div className="intro">
+            
+            {introData.map((item) => {
+                return(
+                    <div className="intro" key ={item.id}>
                 <div className="content">
-                    <h2>We are a Church that believes
-                        in Jesus & loves God and People</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                            It has survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged.</p>
+                    <h2>{item.title}</h2>
+                        <p>{item.content}</p>
                             <NavLink to = './aboutpage' ><button type="submit" className='btn-primary'>More Info</button></NavLink>
                 </div>
                 <div className="image">
                     <div className="intro-pix">
                         <div className='bg'></div>
-                    <img src='https://i.pinimg.com/564x/99/49/d7/9949d7c9d17386039b7c07c581e9feec.jpg' alt="pastorpicture"/>
+                    <img src={item.image} alt="pastorpicture"/>
                     </div>
-                    <h5>David & Tamara Simpsons</h5>
-                    <p>Senior Pastor AFTJ Church</p>
+                    <h5>{item.pastor_name}</h5>
+                    <p>{item.pastor_position}</p>
                 </div>  
             </div>
+                ) 
+                })}        
         </section>
     )
 }

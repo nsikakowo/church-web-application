@@ -51,8 +51,8 @@ function Connect() {
             groupBtn = {'Learn More'}
             groupPhoto = {missions}
             />
-            <CallToAction />
             <SendUsMessage />
+            <CallToAction />
             <Footer/>
         </div>
     )

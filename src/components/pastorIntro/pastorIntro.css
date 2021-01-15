@@ -84,6 +84,7 @@
     .intro .content{
         width: 90%;
         padding: 1rem 0rem;
+        text-align: center;
     }
 
     .intro .image{
@@ -101,6 +102,9 @@
 
     .intro .image img{
         width: 100%;
+    }
+    .intro .intro-pix .bg{
+        display:none;
     }
 }
 

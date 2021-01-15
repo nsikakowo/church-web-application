@@ -40,37 +40,54 @@
     z-index: 10;
 }
 
-.cta .subscribe {
-    margin:20px 0 30px;
+.subscribe {
+    margin:20px 0 0px;
     display: flex;
-    width: 60%;
+    width: 100%;
     border: 1px solid var(--clr-white);
     border-radius: 5px;
 }
 
-.cta .subscribe input {
+.subscribe input {
     background-color: transparent;
     width: 100%;
     outline: none;
     border: none;
     padding: 10px;
+    padding-right: 40%;
     font-size: 16px;
     color: var(--clr-white);
     z-index: 10;
 }
 
-.cta .subscribe input::placeholder{
+.subscribe input::placeholder{
     font-size: 16px;
 }
 
-.cta .subscribe button{
+.cta h3{
+    font-style: italic;
+    color: yellow;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+}
+
+.subscribe button{
     padding: 10px 25px;
     text-transform: uppercase;
     outline: none;
     font-weight: 500;
     border: 1px solid var(--clr-white);
     z-index: 10;
+    cursor: pointer;
 
+}
+
+ #error{
+    color:yellow;
+    font-size: .8rem;
+    margin-top: 0;
+    padding-top: 1px;
+    text-align: left;    
 }
 
 @media screen and (max-width:800px) {
@@ -88,11 +105,22 @@
         font-weight: 500;
     }
 
-    .cta .subscribe {
+     .subscribe {
         margin:20px 0 30px;
         display: flex;
         width: 90%;
         
+    }
+    .subscribe input {
+        background-color: transparent;
+        width: 100%;
+        outline: none;
+        border: none;
+        padding: 10px;
+        padding-right:0;
+        font-size: 16px;
+        color: var(--clr-white);
+        z-index: 10;
     }
 }
 
