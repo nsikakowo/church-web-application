@@ -11,14 +11,14 @@ const sliderUrl = "https://church.aftjdigital.com/api/sliders"
 function HomeSlider() {
     
     const [sliderData, setSliderData] = useState([]);
-    const [loading, setLoading] = useState(false);
+    const [isLoading, setIsLoading] = useState(false);
    
 
     const getSliderContents = async () => {
         const response = await axios.get(sliderUrl);
         const content =  response.data;
         setSliderData(content);
-        setLoading(true);
+        setIsLoading(true);
     }
 
     useEffect(() => {
@@ -32,7 +32,7 @@ function HomeSlider() {
    if(sliderData) {
     return (
         <section>
-            {loading ?
+            {isLoading ?
         <main id='slider'>
             {sliderData.map((item, i) => {
                 if(i === 0) {

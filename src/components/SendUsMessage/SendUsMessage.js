@@ -1,32 +1,41 @@
-import React from 'react'
+import React, {useState} from 'react'
+import MessageForm from './MessageForm'
 import './sendUsMessage.css'
 import googlemap from './map.jpg'
 
 function SendUsMessage() {
+
+    const [isSubmitted, setIsSubmitted] = useState(false);
+
+    function submitForm() {
+        setIsSubmitted(true);
+    }
+
+    const handleReload= ()=> {
+        window.location.reload();
+    }
+
     return (
         <div className='main-message-container'>
             <div className="form">
                 <h2>Send Us a Message</h2>
-                <form id='sendMessage'>
-                    <input type="text" name="firstname" 
-                    placeholder='Your Name'/>
-                    <input type="text" name="email" 
-                    placeholder='Your Email Address'/>
-                    <textarea name="message"  cols="30" 
-                    rows="20"></textarea>
-                    <label htmlFor="checkbox" id= 'checkLabel'>
-                    <input type="checkbox" name="agreement" id='check'
-                     value='agreement'/>
-                          I agree that my submitted data is 
-                     been collected and stored.</label>
-                     <button className= 'btn-primary' id='message-btn' >send message</button>
-                </form>
+
+                    {!isSubmitted ?
+                        <MessageForm submitForm ={submitForm}/> 
+                        : <div style= {{display:'flex', justifyContent:'center', alignItems:'center', flexDirection:'column'}}>
+                            <p style = {{textAlign:'center', fontStyle:'italic', fontSize:'2rem', color:'red', paddingBottom:'3rem', paddingTop:'3rem'}}>
+                                Message has been submitted
+                            </p>
+                            <button className= 'btn-primary' onClick={handleReload}>Submit Another Message</button>
+
+                        </div>  }
+                
             </div>
             <div className="google-map">
-                <img src='' alt=""/>
+                <img src='' alt=""/> 
             </div>
         </div>
     )
 }
 
-export default SendUsMessage
+export default SendUsMessage  

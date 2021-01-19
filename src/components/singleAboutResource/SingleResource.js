@@ -11,17 +11,10 @@ const {image, text, heading, btn1, btn2} = props;
                 <img src={image} alt={heading}/>
             </div>
             <div className="resource-content">
-                <h2>Learn More</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Rerum similique minima quas cum ea ab earum voluptatum saepe corporis, 
-                    quod odio doloribus iusto dicta eaque fuga dolorem
-                     consequatur beatae nostrum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Rerum similique minima quas cum ea ab earum voluptatum saepe corporis, 
-                    quod odio doloribus iusto dicta eaque fuga dolorem
-                     consequatur beatae nostrum.</p>
-                    <button className= 'btn-primary'>More resources</button>
-                    <button className='btn-outline'>Downloads</button>
+                <h2> {heading} </h2>
+                <p>{text}</p>
+                    <button className= 'btn-primary'>{btn1}</button>
+                    <button className='btn-outline'>{btn2}</button>
             </div>
         </section>
     )

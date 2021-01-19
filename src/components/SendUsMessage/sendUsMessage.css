@@ -14,16 +14,31 @@
     text-align: center;
 }
 
-.main-message-container #sendMessage{
+ #sendMessage{
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 1fr 1fr;
-    
+}
+
+#sendMessage div {
+    grid-template-columns: 1fr 1fr;
+}
+
+#sendMessage #error{
+    color: red;
+    font-weight: 600;
+    margin-bottom: 1px;
+    padding-bottom: 0;
+}
+
+#sendMessage .error-message{
+    grid-column: 1/span 2;
 }
 
 .form{
     flex: 1;
 }
+
 
 #sendMessage input{
     padding: 18px;
@@ -31,21 +46,41 @@
     border-radius: 5px;
     border: none;
     background-color: var(--clr-primary-7);
+    width: 100%;
+    outline: none;
 }
 
 #sendMessage textarea{
     border: none;
+    outline: none;
     border-radius: 5px;
     grid-column: 1/span 2;
     background-color: var(--clr-primary-7);
 }
 
+#sendMessage input:focus,
+#sendMessage textarea:focus{
+    box-shadow: var(--light-shadow);
+}
+
 #sendMessage #check {
-    margin-right: 1rem;
+    margin-left: 0;
+}
+
+#sendMessage #check:focus{
+    box-shadow: none;
+}
+
+#checkbox{
+    grid-column: 1/span 2;
 }
 
 #checkLabel{
+    display: grid;
+    grid-template-columns: 0.03fr 1fr;
+    align-items: center;
     grid-column: 1/span 2;
+    margin-left: 0;
 }
 
 #sendMessage #message-btn{
@@ -85,7 +120,7 @@
         margin: 2rem 0rem;
         
     }
-    .main-message-container #sendMessage{
+     #sendMessage{
         display: flex;
        justify-content: center;
        align-items: center;
