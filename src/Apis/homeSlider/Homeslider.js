@@ -1,6 +1,6 @@
 import React, {useState, useEffect } from 'react'
 import NextEvent from '../../components/nextEvent/NextEvent'
-import Loading from '../../components/loading/Loading'
+import Loading from '../../components/loading/loading'
 import axios from "axios";
 import '../../components/slider/slider.css';
 
@@ -26,7 +26,7 @@ function HomeSlider() {
     }, [])
 
     
-    // console.log("slider", sliderData)
+
 
 
    if(sliderData) {

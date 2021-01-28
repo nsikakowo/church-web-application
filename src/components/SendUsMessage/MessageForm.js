@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useState} from 'react';
+import axios from 'axios';
 import {useForm} from 'react-hook-form'
 import './sendUsMessage.css'
 
@@ -6,13 +7,22 @@ import './sendUsMessage.css'
 
 
 function MessageForm({submitForm}) {
-
     const {register, handleSubmit, errors} = useForm();
 
     const onSubmit = data => {
         submitForm();
-        console.log(data);
+        console.log('formdata', data);
+
+       axios.post('https://church.aftjdigital.com/api/sermon/contact_message', data)
+        .then(response => {
+            console.log(response)
+        })
+        .catch(error => {
+            console.log(error)
+        })
     }
+
+   
 
     return (
        
@@ -59,7 +69,7 @@ function MessageForm({submitForm}) {
                     <div id='checkbox'>
                     <label htmlFor="checkbox" id= 'checkLabel'>
                     <input type="checkbox" name="agreement" id='check' 
-                     value='Accepted Terms of the form'
+                     value='yes'
                      ref={register({ 
                         required: {value: true, message:"Please tick the acceptance box above "},
                     })}

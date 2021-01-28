@@ -16,7 +16,6 @@ function NextEvent() {
 
   const getEventApi = async () =>{
     const response = await axios.get(eventApi);
-    console.log(response.data.data);
     setEventTime(response.data.data);
   }
 

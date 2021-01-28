@@ -19,8 +19,8 @@ function SermonPage() {
              sub_title= {'Join Our Live Service and a partaker of the Blessing'}/>
             <VideoMessages />
             <AllRecordedMessages />
-            <CallToAction />
             <SendUsMessage />
+            <CallToAction />
             <Footer/>
         </div>
     )
