@@ -1,0 +1,119 @@
+.player-section{
+    border-radius: 7px;
+    margin: 10px 10rem 7rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--dark-shadow);
+    height: 500px;
+}
+
+.player-section .current-track {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 1px solid var(--clr-primary-1);
+}
+
+.current-track .controls {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+.current-track .controls p{
+    padding: 1.5rem 0.6rem 0rem 0.6rem;
+    font-size: 1.5rem;
+}
+
+.controls .random, 
+.controls .restart{
+    font-size: 0.5rem;
+   
+}
+
+.player-section .player-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 30px;
+    width: 100%;
+
+}
+
+.player-body .audio-image{
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    margin-top: 3rem;
+    overflow: hidden;
+}
+
+.audio-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.player-body .playlist{
+    flex: 1.6;
+    margin-left: 5rem;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.player-body .playlist::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+
+.player-body .playlist article{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 5px;
+    border-bottom: 1px solid var(--clr-primary-1);
+    cursor: pointer;
+    
+}
+.player-body .playlist article .track-photo{
+    border-radius: 7px;
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    overflow: hidden;
+}
+
+.playlist article .track {
+    display: flex;
+}
+
+.player-body .playlist article .track-photo img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* .playlist .track-details{
+    
+} */
+
+.playlist .track-details .track-title{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.playlist .track-details .artiste{
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    color: var(--clr-primary-2);
+}
+
+.playlist .track-duration{
+    font-weight: 500;
+    color: var(--clr-primary-2);
+    font-size: 0.8rem;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}

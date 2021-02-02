@@ -4,6 +4,7 @@ import SecondaryMenu from '../components/secondaryMenu/SecondayMenu'
 import HomeSlider from '../Apis/homeSlider/Homeslider'
 import FeatureBox from '../components/featuredBox/FeatureBox'
 import PastorIntro from '../components/pastorIntro/PastorIntro'
+import WordPlayer from '../components/WordPlayer/WordPlayer'
 import MessageSinglePlayer from '../components/MessageSinglePlayer/MessageSinglePlayer'
 import UpcomingEvents from '../components/upcomingEvents/UpcomingEvents'
 import HomePrayerTab from '../components/NeedPrayers/HomePrayerTab'
@@ -21,6 +22,7 @@ function HomePage() {
             <HomeSlider />
             <FeatureBox/>
             <PastorIntro />
+            <WordPlayer />
             <MessageSinglePlayer />
             <UpcomingEvents />  
             <HomePrayerTab/>
