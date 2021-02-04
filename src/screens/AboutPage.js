@@ -6,6 +6,7 @@ import Slider from '../components/slider/Slider'
 import AboutPageWelcome from '../components/aboutWelcome/AboutPageWelcome'
 import SubTitle  from '../components/subTitle/SubTitle'
 import Beliefs  from '../components/beliefs/Beliefs'
+import MoreResource  from '../components/moreResource/MoreResource'
 import SingleResource  from '../components/singleAboutResource/SingleResource'
 import AboutPrayerTab from '../components/NeedPrayers/AboutPrayerTab'
 import GetOurApp from '../components/GetOurApp/GetOurApp'
@@ -90,6 +91,7 @@ function AboutPage() {
             } )}
 
 
+            <MoreResource/>
             <AboutPrayerTab/>
             
             <SendUsMessage />

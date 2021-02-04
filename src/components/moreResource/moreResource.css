@@ -1,0 +1,30 @@
+.more-wrapper{
+    padding: 5rem 10rem;
+    border-top: 1px solid var(--clr-primary-1);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.more-wrapper .resource-image{
+    width: 35rem;
+    height: 25rem;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.resource-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.more-wrapper article{
+    width: 80%;
+    margin: 1rem 2rem;
+}
+
+.btn-links button{
+    margin-right: 1rem;
+}
