@@ -7,6 +7,8 @@ import speaker from '../../screens/all-images/pastor.jpg'
 
 function WordPlayer() {
     return (
+        <div id='word'>
+            <h2>The Word</h2>
         <section className='player-section'>
             <div className='current-track'>
                 <div className="controls">
@@ -17,10 +19,10 @@ function WordPlayer() {
                     <p className='restart'><ImLoop2/></p>
                 </div>
                 <div className="playing">
-                    <p>playing now</p>
+                    <p>playing now here</p>
                 </div>
                 <div className="volume">
-                    <p>audio</p>
+                    <p>audio control</p>
                 </div>
             </div> 
             <div className= 'player-body'>
@@ -172,6 +174,7 @@ function WordPlayer() {
                 </div>
             </div>
         </section>
+        </div>    
     )
 }
 

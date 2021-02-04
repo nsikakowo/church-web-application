@@ -26,6 +26,8 @@
 .single-messagePlayer .video iframe {
     width: 100%;
     border-radius: 5px;
+    height: 200px;
+    margin: 2rem 0;
 }
 
 .single-messagePlayer 

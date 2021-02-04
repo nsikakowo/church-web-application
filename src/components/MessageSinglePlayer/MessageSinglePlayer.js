@@ -1,22 +1,41 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
+import axios from 'axios'
 import './messageSinglePlayer.css';
 // import poster from './poster.png'
 
+const messageApi = 'https://church.aftjdigital.com/api/get-involved'
+
 function MessageSinglePlayer() {
+
+    const [message, setMessage] = useState([]);
+
+    const getMessage = async () => {
+        const response = await axios.get(messageApi);
+        setMessage(response.data.data)
+    }
+
+    useEffect(() => {
+        getMessage();
+    }, [])
+
     return (
-        <article className='single-messagePlayer'>
-            <div className="content">
-                <p>A message</p>
-                <h2>We make <br/>a difference</h2>
-                <button className='btn-primary'>Get Involved</button>
+            <div>
+            {message.map((item) => {
+                return (
+                 <article className='single-messagePlayer' key = {item.id}>
+                    <div className="content">
+                <p>{item.title}</p>
+                <h2>{item.topic}</h2>
+                <button className='btn-primary'>{item.btn_text}</button>
             </div>
             <div className="video">
-            <iframe width="489px" 
-            height="282px" 
-            src="https://www.youtube.com/embed/UjpYUa4s-e0" 
-            frameBorder="0" allow="accelerometer; picture-in-picture" title= 'message'  allowFullScreen></iframe>
+            <video  src= {item.video} controls={true} ></video>
             </div>
         </article>
+                )
+            })}
+            
+        </div>
     )
 }
 

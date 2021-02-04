@@ -23,8 +23,8 @@ function HomePage() {
             <FeatureBox/>
             <PastorIntro />
             <WordPlayer />
-            <MessageSinglePlayer />
             <UpcomingEvents />  
+            <MessageSinglePlayer />
             <HomePrayerTab/>
             <GetOurApp/>
             <CallToAction />

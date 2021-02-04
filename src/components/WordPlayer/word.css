@@ -15,6 +15,11 @@
     border-bottom: 1px solid var(--clr-primary-1);
 }
 
+#word{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .current-track .controls {
     display: flex;
     justify-content: space-evenly;
@@ -25,11 +30,18 @@
 .current-track .controls p{
     padding: 1.5rem 0.6rem 0rem 0.6rem;
     font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.current-track .controls p:hover{
+    color:var(--clr-primary-2);
+    transition: .5s;
 }
 
 .controls .random, 
 .controls .restart{
     font-size: 0.5rem;
+    color: var(--clr-primary-1);
    
 }
 
@@ -59,7 +71,7 @@
     flex: 1.6;
     margin-left: 5rem;
     overflow-y: scroll;
-    height: 400px;
+    height: 380px;
 }
 
 .player-body .playlist::-webkit-scrollbar-thumb {
