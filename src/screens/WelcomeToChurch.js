@@ -49,7 +49,7 @@ function WelcomeToChurch() {
            <InfoBoard title = {'“Can We Go To Our Church Again?”'} btn = {'view more'} image = {welcome}
               description = {'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta itaque quaerat earum aliquid aspernatur obcaecati molestiae aut eveniet sint amet! Illo minus dolore veritatis, itaque neque eos, vero minima voluptatem iure unde voluptatum exercitationem amet quidem possimus pariatur, autem fuga ipsum saepe ducimus? Totam modi assumenda    debitis earum vero accusamus!'}
             
-            />
+            /> 
            <CallToAction />
             <Footer/>
 

@@ -10,13 +10,14 @@ import Footer from '../components/footer/Footer'
 
 import find from './all-images/find.jpg'
 import question from './all-images/questions.jpg'
+import pix from './all-images/workforce.jpg'
 
 function Volunteer() {
     return (
         <div >
              <NavBar/>
             <SecondaryMenu/>
-            <SingleSlider heading ={'CHURCH WORKFORCE'} tagline = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '} />
+            <SingleSlider heading ={'CHURCH WORKFORCE'} image={pix}  tagline = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '} />
             <SubTitle 
              
              subheading= {'Home cell is a vital part Jubilee Christian Church Int’l. This is because it is the best way you can connect to others with the passion in the church.\

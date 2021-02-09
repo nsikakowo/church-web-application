@@ -129,3 +129,10 @@
     margin-bottom: 10px;
     padding-right: 10px;
 }
+
+
+@media (min-width:1367px) {
+    .player-section{
+        margin: 10px 20rem 7rem;
+    }
+}
