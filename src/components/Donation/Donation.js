@@ -2,15 +2,13 @@ import React from 'react'
 import './donation.css'
 // import './donate.scss'
 
-function Donation() {
+function Donation({title, text}) {
+
     return (
         <div className='donation-container'>
             <div className="donation-description">
-                <h2>SUPPORT OUR CHURCH</h2>
-                <p>Thank you for your support. Choose a fund
-                     to give towards and enter an amount for your gift. 
-                     Your giving is making a difference in this church, 
-                    our community, and the world.</p>
+                <h2>{title}</h2>
+                <p> {text} </p>
             </div>
             <div className="donation-form">
                 <form>
@@ -23,10 +21,10 @@ function Donation() {
                         <input type="number" name="amount" id="amount" placeholder='$0'/>
                     </label>
                     <div id='interval'>
-                    <input id="toggle-on" class="toggle toggle-left" name="toggle" value="false" type="radio" checked />
-                        <label for="toggle-on" class="btn">Monthly</label>
-                        <input id="toggle-off" class="toggle toggle-right" name="toggle" value="true" type="radio"/>
-                        <label for="toggle-off" class="btn">Annually</label>
+                    <input id="toggle-on" className="toggle toggle-left" name="toggle" value="false" type="radio"  />
+                        <label htmlFor="toggle-on" className="btn">Monthly</label>
+                        <input id="toggle-off" className="toggle toggle-right" name="toggle" value="true" type="radio"/>
+                        <label htmlFor="toggle-off" className="btn">Annually</label>
                         </div>
                     <button className='btn-primary'>make payment</button>
                 </form>

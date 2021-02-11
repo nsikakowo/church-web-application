@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import {NavLink} from 'react-router-dom'
 import axios from 'axios'
 import './videoMessages.css';
 
@@ -39,7 +40,7 @@ function VideoMessages() {
                 
                
             </div>
-                <button className='btn-primary'>View more podcast</button>
+             <a href='/sermonpage/#grand-player' > <button className='btn-primary'>View more podcast</button></a> 
         </section>
     )
 }

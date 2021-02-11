@@ -33,6 +33,7 @@ import Gifts  from './screens/Gifts';
 import EmptyCart  from './screens/EmptyCart';
 import ViewCart  from './screens/ViewCart';
 import KidsLife  from './screens/KidsLife';
+import ScrollTop from './screens/ScrollTop';
 
 import './App.css';
 
@@ -40,6 +41,7 @@ function App() {
   return (
    <Router>
     <div>
+      <ScrollTop>
     <Switch>
           <Route exact path="/">
             <HomePage />
@@ -129,7 +131,7 @@ function App() {
             <KidsLife />
           </Route>
         </Switch>
-     
+        </ScrollTop>
     </div>
   </Router>
   );

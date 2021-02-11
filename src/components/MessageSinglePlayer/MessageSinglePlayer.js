@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from 'react'
+import {NavLink} from 'react-router-dom'
 import axios from 'axios'
+import ReactPlayer from 'react-player'
 import './messageSinglePlayer.css';
 // import poster from './poster.png'
 
@@ -26,10 +28,10 @@ function MessageSinglePlayer() {
                     <div className="content">
                 <p>{item.title}</p>
                 <h2>{item.topic}</h2>
-                <button className='btn-primary'>{item.btn_text}</button>
+                <NavLink to='/connect'><button className='btn-primary'>{item.btn_text}</button></NavLink>
             </div>
             <div className="video">
-            <video  src= {item.video} controls={true} ></video>
+            <ReactPlayer className='video-source' url ={item.video} width= '400px' height ='250px' controls ={true} />
             </div>
         </article>
                 )
