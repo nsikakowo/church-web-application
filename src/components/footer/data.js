@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const quicklinks = [
   { 
     id: 1,
@@ -30,6 +28,11 @@ export const quicklinks = [
     id: 6,
     url: '/store',
     text: 'store',
+  },
+  {
+    id: 7,
+    url: '/contactus',
+    text: 'contact us',
   },
   
 ];
@@ -70,6 +73,11 @@ export const connect = [
       url: '/servicetimes',
       text: 'Times/Speaking Schedules',
     },
+    {
+      id: 8,
+      url: '/volunteer',
+      text: 'Volunteer',
+    },
   ];
   
   export const more = [
@@ -82,6 +90,11 @@ export const connect = [
       id: 2,
       url: '/aboutPage',
       text: 'History',
+    },
+    {
+      id: 8,
+      url: '/kidslife',
+      text: 'Kids Life',
     },
     {
       id: 3,

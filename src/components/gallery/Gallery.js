@@ -6,7 +6,7 @@ const Gallery = (props) => {
     const {items, galleryTitle, } = props
 
       return (
-          <>
+          <div id= 'gallery'>
         <h3 className='galleryGroup-title'>{galleryTitle} </h3>
         <div className= 'gallery-container'>
             {items.map((item) => {
@@ -19,7 +19,7 @@ const Gallery = (props) => {
             })}
             
         </div>
-        </>
+        </div>
     )
 }
 

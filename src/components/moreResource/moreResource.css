@@ -28,3 +28,27 @@
 .btn-links button{
     margin-right: 1rem;
 }
+
+
+@media (max-width:800px) {
+    .more-wrapper{
+    flex-direction: column;
+    padding: 1rem 1rem;
+    }
+
+    .more-wrapper .resource-image{
+        width: 25rem;
+        height: 25rem;
+       margin: auto;
+    }
+    .more-wrapper article h2{
+        font-size: 2rem;
+    }
+}
+
+
+@media (min-width:1367px){
+    .more-wrapper{
+        padding: 5rem 20rem;
+    }
+}

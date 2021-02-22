@@ -14,6 +14,11 @@ export default [
       image:
         'https://www.johnrothra.com/wp-content/uploads/2015/04/Small-Group-Bible-Study-e1428514391384.jpg',
     },
+    {
+      id: 4,
+      image:
+        'https://www.rccglibertychristiancentre.org/wp-content/uploads/2020/06/news-partners.jpg',
+    },
     
   ];
   

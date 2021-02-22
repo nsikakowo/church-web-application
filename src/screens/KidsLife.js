@@ -6,13 +6,16 @@ import SubTitle from '../components/subTitle/SubTitle'
 import ConnectGroup from '../components/connectGroups/ConnectGroup'
 import MemberPlayer from '../components/newMemberPlayer/MemberPlayer'
 import Gallery from '../components/gallery/Gallery'
+import Accordian from '../components/accordian/Accordian'
 import data from '../components/gallery/data'
+import {NavLink} from 'react-router-dom'
 import './givePage.css'
 import Footer from '../components/footer/Footer'
 
 //picture imports
 import kids from './all-images/kids.jpg'
 import banner from './all-images/kiddd.jpg'
+
 
 function KidsLife() {
     const [items, setItems] = useState(data)
@@ -24,8 +27,8 @@ function KidsLife() {
              tagline = {'Giving is a biblical principle that when lived by, produces a rich harvest in our lives'} />
             <SubTitle subheading = {'KidsLife is a place where kids experience that God is a Great big God and they can have a great big life! We love partnering with parents to help kids from birth to fifth grade grow in their walk with God and develop a lasting relationship with him. We invite you to check out all of the amazing opportunities we have to help kids live their best life now!'} />
             <div className="cart-buttons">
-                    <button className='btn-primary'>what to expect</button>
-                    <button className='btn-outline'>what happened?</button>
+            <NavLink to= '/kidslife'><button className='btn-outline'>what to expect</button></NavLink>
+                    <NavLink to= '/kidswhatshappening'><button className='btn-primary'>what happening?</button> </NavLink>
                 </div>
                 <MemberPlayer image = {kids} />
             <SubTitle subheading = {'Kids can now take KidsLife home by accessing the new KidsLife\'s YouTube channel, where they will find our new video series, The Quest. They will enjoy hilarious, relatable, heart-felt webisodes, all while hearing the message of Christ\'s love.'} />
@@ -38,6 +41,9 @@ function KidsLife() {
 
             <SubTitle heading ={'EARLY CHILDHOOD (INFANTS-5YR)'} subheading = {'We offer a loving environment and explore the Bible through specific activities and worship'} />
             <Gallery items = {items} />
+            <SubTitle heading ={'ELEMENTARY (1ST - 5TH GRADE)'} subheading = {'We offer a variety of engaging and energizing experiences, propelling kids towards a growing friendship with Jesus'} />
+            <Gallery items = {items} />
+            <Accordian/>
             <Footer/>
 
         </div>

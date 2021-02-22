@@ -15,7 +15,7 @@ import banner from './all-images/banner.jpg'
 function Store() {
     return (
         <div>
-             <NavBar/>
+             <NavBar/> 
             <SecondaryMenu/>
             <SingleSlider heading ={'Our store'} image ={banner}
             tagline = {'We offer a wide range of resources and gifts to help you.'} />
@@ -24,13 +24,13 @@ function Store() {
              subheading= {'Here is some of our newest and most popular resources. Check back regularly for new release'}
             
             />
-           <StoreBanner  title = {'Books'} btn = {'view all books'}  image = {bookshelf}
+           <StoreBanner  title = {'Books'} btn = {'view all books'}  image = {bookshelf} btn_txt = {'./books'}
            description = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has  been the industry\'s standard dummy text ever since the 1500s, when an unknown printer.'}/>
             <SalesList />
-            <StoreBanner  title = {'Series'} btn = {'view all series'}  image = {series}
+            <StoreBanner  title = {'Series'} btn = {'view all series'}  image = {series} btn_txt = {'./series'}
            description = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has  been the industry\'s standard dummy text ever since the 1500s, when an unknown printer.'}/>
             <SalesList />
-            <StoreBanner  title = {'Give'} btn = {'view all gifts'}  image = {give}
+            <StoreBanner  title = {'Gifts'} btn = {'view all gifts'}  image = {give} btn_txt = {'./gifts'}
            description = {'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has  been the industry\'s standard dummy text ever since the 1500s, when an unknown printer.'}/>
             <SalesList />
             <Footer/>

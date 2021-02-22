@@ -3,7 +3,7 @@
     height: 340px;
     border-radius: 5px;
     overflow: hidden;
-    margin: 0 1rem 0;
+    margin:1rem;
 }
 
 .gallery-images img {
@@ -21,4 +21,24 @@
 
 .galleryGroup-title {
     margin: 3rem 6rem 7px;
+}
+
+#gallery h3{
+    margin: 2rem 10rem
+}
+
+#gallery{
+    margin: 2rem 10rem;
+}
+
+@media screen and (max-width:800px) {
+    .gallery-container{
+        flex-direction: column;
+    }
+}
+
+@media (min-width:1367px) {
+    #gallery{
+        margin: 2rem 20rem;
+    }
 }

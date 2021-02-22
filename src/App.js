@@ -34,6 +34,7 @@ import EmptyCart  from './screens/EmptyCart';
 import ViewCart  from './screens/ViewCart';
 import KidsLife  from './screens/KidsLife';
 import ScrollTop from './screens/ScrollTop';
+import KidsWhatshappening from './screens/KidsWhatshappening'
 
 import './App.css';
 
@@ -129,6 +130,9 @@ function App() {
           </Route>
           <Route path="/kidslife">
             <KidsLife />
+          </Route>
+          <Route path="/kidswhatshappening">
+            <KidsWhatshappening />
           </Route>
         </Switch>
         </ScrollTop>

@@ -1,10 +1,11 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import NavBar from '../components/Header/NavBar'
 import SecondaryMenu from '../components/secondaryMenu/SecondayMenu'
 import SingleSlider from '../components/singleSlider/SingleSlider'
 import SubTitle from '../components/subTitle/SubTitle'
 import Beliefs  from '../components/beliefs/Beliefs'
 import NewMemberForm from '../components/newMemberForm/NewMemberForm'
+import Accordian from '../components/accordian/Accordian'
 // import InfoBoard from '../components/infoBoard/InfoBoard'
 
 import MessageSinglePlayer from '../components/MessageSinglePlayer/MessageSinglePlayer'
@@ -16,6 +17,11 @@ import question from './all-images/questions.jpg'
 
 
 function NewHere() {
+
+    useEffect(() => {
+        document.title = "New Here?";
+        
+      }, []);
     return (
         <div>
              <NavBar/>
@@ -46,6 +52,7 @@ function NewHere() {
 
             />
             <MessageSinglePlayer />
+            <Accordian/>
             <Footer/>
 
         </div>

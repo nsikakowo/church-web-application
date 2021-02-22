@@ -1,5 +1,5 @@
 import React, {useState, useEffect } from 'react'
-// import {feature} from './data'
+import {NavLink} from 'react-router-dom'
 import './featuredBox.css'
 import axios from 'axios';
 
@@ -22,7 +22,7 @@ function FeatureBox(props) {
     
  
     return(
-       
+       <NavLink to='/newhere'>
         <section className='featuredBox'>  
 
         {boxData.map((item) => {
@@ -42,7 +42,7 @@ function FeatureBox(props) {
         
      
     
-  </section>
+  </section></NavLink>
      
     )
 }

@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
+import axios from 'axios'
 import NavBar from '../components/Header/NavBar'
 import SecondaryMenu from '../components/secondaryMenu/SecondayMenu'
 import SingleSlider from '../components/singleSlider/SingleSlider'
@@ -8,11 +9,22 @@ import MessageSinglePlayer from '../components/MessageSinglePlayer/MessageSingle
 import Beliefs  from '../components/beliefs/Beliefs'
 import Footer from '../components/footer/Footer'
 
-import find from './all-images/find.jpg'
-import question from './all-images/questions.jpg'
 import pix from './all-images/workforce.jpg'
 
 function Volunteer() {
+
+    const [content, setContent] = useState([]);
+
+    const getContent = async ()=> {
+        const response = await axios.get('https://church.aftjdigital.com/api/volunteer-belief');
+        setContent(response.data.data);
+    }
+
+    useEffect(() => {
+        getContent();
+    }, [])
+
+
     return (
         <div >
              <NavBar/>
@@ -31,15 +43,20 @@ function Volunteer() {
             />
             <VolunteerForm />
             <MessageSinglePlayer />
-            <Beliefs 
-             beliefTitle ={'We Are Easy To Find'} beliefPhoto ={find} beliefPhotoRight ={question}
-             beliefText = {'Kidslife is a place where Kids experience that God is Great.  Lorem Ipsum is simply dummy text of the printing and typesetting industry. '}
-            beliefBtn = {'click for directions'}
-            beliefTitleRight ={'More Questions?'}
-            beliefTextRight = {'Lorem Ipsum is  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. '}
-            beliefBtnRight = {'CONTACT US NOW'}
 
-            />
+            {content.map((item) => {
+                return (
+                    <Beliefs 
+                     beliefTitle ={item.title_top} beliefPhoto ={item.image_top} beliefPhotoRight ={item.image_bottom}
+                     beliefText = {item.text_top}
+                    beliefBtn = {item.btn_text_top}
+                    beliefTitleRight ={item.title_bottom}
+                    beliefTextRight = {item.text_bottom}
+                    beliefBtnRight = {item.btn_text_bottom}       
+                    />
+                )
+            })}
+
             <Footer/>
         </div>
     )

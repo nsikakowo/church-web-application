@@ -24,6 +24,12 @@
 }
 
 
+@media screen and (max-width:800px) {
+    .subtitle{
+        margin: 30px 1rem;
+    }
+}
+
 @media screen and (min-width:1367px){
     .subtitle{
         margin: 50px 20rem;
