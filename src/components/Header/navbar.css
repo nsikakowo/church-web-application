@@ -4,8 +4,8 @@
   ===============
   */
   #primary-nav {
-    background: var(--clr-white);
-    border-bottom: 0.25px solid #c4c4c42e;
+    /* background: var(--clr-white); */
+    /* border-bottom: 0.25px solid #c4c4c42e; */
     z-index: 50;
     position: relative;
   }
@@ -48,12 +48,16 @@
   }
 
   .links a:last-child{
-    padding: 10px 25px;
-    background: var(--clr-primary-1);
+    padding: 10px 25px 10px 0px;
+    /* background: var(--clr-primary-1); */
+    border-bottom: 1px solid #c4c4c4;
     border-radius: 1px;
-    width: 84px;
+    width: 34px;
     height: 40px;
+    text-transform: uppercase;
     box-shadow: var(--light-shadow);
+    margin-left: 18px;
+    /* border-radius: 4px; */
   }
   .links a:last-child:hover{
     padding: 10px 25px;
@@ -70,7 +74,7 @@
   }
 
   .links .main-active {
-    color: var( --clr-black);
+    color: orange;
     /* font-weight: 600; */
   }
 
@@ -106,7 +110,7 @@
       justify-content: space-between;
       padding: 1rem 5rem;
       width: 100%;
-      background-color: var(--clr-white);
+      /* background-color: var(--clr-white); */
       position: static;
     }
     .nav-header {

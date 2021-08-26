@@ -76,9 +76,9 @@
 
     .upcomingEvents .upcomingContainer{
        flex-direction: column;
-        margin: 10px 1rem;
+        margin: 10px auto;
         justify-content: center;
-        width: 90%;
+        width: 400px;
        
     }
 

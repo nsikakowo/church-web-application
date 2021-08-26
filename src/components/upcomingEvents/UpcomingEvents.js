@@ -11,7 +11,7 @@ function UpcomingEvents() {
 
     const getEventData = async () => {
         const response = await axios.get(eventApi);
-        const events = response.data.data
+        const events = response.data.data.data
         setData(events)
        
     }

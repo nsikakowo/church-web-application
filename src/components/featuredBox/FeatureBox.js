@@ -12,7 +12,7 @@ function FeatureBox(props) {
 
     const getBoxData = async () => {
         const response = await axios.get(featuredBoxUrl);
-        const featuredBoxData = response.data.featured_box;
+        const featuredBoxData = response.data.data;
         
         setBoxData(featuredBoxData);
     }

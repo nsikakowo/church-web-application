@@ -31,7 +31,7 @@ function MessageSinglePlayer() {
                 <NavLink to='/connect'><button className='btn-primary'>{item.btn_text}</button></NavLink>
             </div>
             <div className="video">
-            <ReactPlayer className='video-source' url ={item.video} width= '400px' height ='250px' controls ={true} />
+            <ReactPlayer className='video-source' url ={item.video} width= '300px' height ='250px' controls ={true} />
             </div>
         </article>
                 )

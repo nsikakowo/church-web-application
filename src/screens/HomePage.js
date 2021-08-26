@@ -17,12 +17,12 @@ import Footer from '../components/footer/Footer'
 function HomePage() {
     return (
         <div>
-             <NavBar/>
-            <SecondaryMenu/>
+             {/* <NavBar/> */}
+            {/* <SecondaryMenu/> */}
             <HomeSlider />
             <FeatureBox/>
             <PastorIntro />
-            <WordPlayer />
+            {/* <WordPlayer /> */}
             <UpcomingEvents />  
             <MessageSinglePlayer />
             <HomePrayerTab/>

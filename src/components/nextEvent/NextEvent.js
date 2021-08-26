@@ -16,11 +16,12 @@ function NextEvent() {
 
   const getEventApi = async () =>{
     const response = await axios.get(eventApi);
-    setEventTime(response.data.data);
+    setEventTime(response.data.data.data);
+    console.log(response.data.data.data)
   }
 
   const startTimer = () => {
-    const countDownDate = new Date('March 11, 2021 04:15:00').getTime();
+    const countDownDate = new Date('September 11, 2021 04:15:00').getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();

@@ -11,7 +11,6 @@ function HomePrayerTab(props) {
         const getPrayerInfo = async () => {
             const response = await axios.get(homePrayerTabApi);
             const getPrayerTabInfo = response.data.data;
-            
 
             setPrayerInfo(getPrayerTabInfo);
         }

@@ -55,10 +55,17 @@
     }
 
     .single-messagePlayer .video{
-        width: 20rem;
+        width: 300px;
         border-radius: 15px;
         margin-top: 30px;
         padding: 1rem;
+    }
+
+    .video-source{
+        width: 100%;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
     }
 
 }

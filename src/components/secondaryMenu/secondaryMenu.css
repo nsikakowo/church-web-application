@@ -3,9 +3,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5rem;
-    background-color: var(--clr-white);
-    box-shadow: var(--light-shadow);
+    /* background-color: var(--clr-white); */
+    /* box-shadow: var(--light-shadow); */
     height: 60px;
+    z-index: 200;
 }
 
 .left-menu ul{

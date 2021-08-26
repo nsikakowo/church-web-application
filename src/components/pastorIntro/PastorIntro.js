@@ -11,7 +11,7 @@ function PastorIntro() {
 
     const getIntroData = async () => {
         const response = await axios.get(pastorIntroApi);
-        const introBoxData = response.data.featured_box;
+        const introBoxData = response.data.data;
         
         setIntroData(introBoxData);
     }
